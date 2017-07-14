@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none
+}
+.clear{
+	clear: both;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+div#header{
+
+}
+div#header div#logo{
+	width: 100%;
+	height: 30px;
+	background: url(../images/logo_bg.jpg);
+}
+div#header div#top_ad{
+	width: 100%;
+	height: 83px;
+	background: url(../images/top_ad_other_bg.jpg);
+}
+div#header div#top_ad div.top_ad{
+	height: 83px;
+	background: url(../images/top_ad_bg.jpg);
+}
+div#header div#nav{
+	width: 100%;
+	height: 62px;
+	background: url(../images/nav_bg.jpg);
+}
+div#header div#nav div.nav{
+	height: 62;
+}
+div#header div#nav div.nav ul{
+	padding-top: 14px;
+}
+div#header div#nav div.nav ul li{
+	float: left;
+	height: 42px;
+	color: #a49c86;
+	padding: 0 15px;
+	font-size: 15px;
+	list-style: none;
+	line-height: 18px;
+	text-align: center;
+	border-left: 1px solid #0d0d0d;
+	border-right: 1px solid #7d0f0f;
+}
+div#header div#nav div.nav ul li:first-child{
+	border-left: none;
+}
+
+div#header div#nav div.nav ul li:nth-last-child(2){
+	border-right: none;
+}
+div#header div#nav div.nav ul li:last-child{
+	padding: 0;
+	border: none;
+	padding-top: 5px;
+}
+div#header div#nav div.nav ul li:last-child input{
+	width: 170px;
+	height: 24px;
+	border: none;
+	outline: none;
+	line-height: 24px;
+	padding-left: 12px;
+	border-radius: 12px;
+	background-color: #bfb9b9;
+	background-image: url(../images/icon/search.png);
+	background-repeat: no-repeat;
+	background-position: 145px 6px;
+}
+div#header div#nav div.nav ul li:last-child input::-webkit-input-placeholder{
+	color: #7b8997;
+}
+div#header div#nav div.nav ul li a{
+	color: #a49c86;
+}
+div#header div#nav div.nav ul li.on a{
+	color: white;
+}
+div#footer div#foot{
+	width: 100%;
+	height: 226px;
+	background: url(../images/foot_bg.jpg);
+}
+div#footer div#foot div.foot{
+	height: 200px;
+	color: #a49c86;
+	padding-top: 26px;
+	background: url(../images/world_map.png) no-repeat right;
+}
+div#footer div#foot div.foot a{
+	color: #a49c86;
+}
+div#footer div#foot div.foot div.left{
+	float: left;
+	width: 300px;
+}
+div#footer div#foot div.foot div.right{
+	float: right;
+	width: 270px;
+}
+div#footer div#foot div.foot div.left h2{
+	font-size: 15px;
+}
+div#footer div#foot div.foot div.left div.qrcode{
+	width: 300px;
+	margin: 22px 0;
+}
+div#footer div#foot div.foot div.left div.qrcode img{
+	float: left;
+	margin-right: 12px;
+}
+div#footer div#foot div.foot div.left div.qrcode h5{
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+div#footer div#foot div.foot div.left div.qrcode h6{
+	font-size: 12;
+	color: #746e5f;
+}
+div#footer div#foot div.foot div.left div.social{
+	clear: both;
+	padding-top: 10px;
+}
+div#footer div#foot div.foot div.left div.social ul li{
+	float: left;
+	font-size: 13px;
+	list-style: none;
+	margin-right: 25px;
+}
+div#footer div#foot div.foot div.left div.social ul li img{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+div#footer div#foot div.foot div.right h2{
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+div#footer div#foot div.foot div.right p{
+	font-size: 13px;
+	line-height: 28px;
+}
+div#footer div#foot div.foot div.right p img{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+div#footer div#copyright{
+	height: 126px;
+	background: url(../images/copyright_bg.jpg);
+}
+div#footer div#copyright div.copyright{
+	color: #a49c86;
+	font-size: 13px;
+	padding-top: 35px;
+	text-align: center;
+}
+div#footer div#copyright div.copyright a{
+	color: #a49c86;
+}

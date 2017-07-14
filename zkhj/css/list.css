@@ -1,0 +1,104 @@
+div.ad img{
+    width: 100%;
+}
+div.ad div.col{
+    padding: 0;
+}
+div.position{
+    height: 66px;
+    background: white;
+}
+div.position .breadcrumb{
+    padding-top: 26px;
+    margin-bottom: 0;
+    background: white;
+}
+div.position .breadcrumb>li+li:before{
+    content: ">";
+}
+div.position .breadcrumb li a{
+    color: #636363;
+}
+div.position .breadcrumb li.active a{
+    color: #22a0f5;
+}
+div.content{
+    background: white;
+}
+div.content div.left{
+    padding-top: 15px;
+    border-top: 1px solid #7cc635;
+}
+div.content div.right{
+    border-top: 1px solid #4db2f6;
+    border-left: 1px solid #dff1fe;
+}
+div.content div.left ul li{
+    border: none;
+    /*height: 50px;*/
+    font-size: 16px;
+    padding-left: 25px;
+    background: url("../images/icon/list_icon.png") no-repeat left 15px;
+}
+div.content div.left .left_img{
+    text-align: center;
+}
+div.content div.left ul li.active{
+    background: url("../images/icon/list_icon_hover.png") no-repeat left 15px;
+}
+div.content div.left ul li a{
+    color: #636363;
+    padding: 3px 0;
+}
+div.content div.left ul li.active a{
+    color: #4db2f6;
+    border-bottom: 1px solid #63bbf7;
+}
+div.content div.right ul li{
+    border: none;
+    padding: 28px 0 10px 30px;
+    background: url("../images/icon/article_icon.png") no-repeat left 28px;
+}
+div.content div.right ul li h3{
+    color: #807079;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+div.content div.right ul li p{
+    color: #807079;
+    font-size: 16px;
+}
+div.content div.right ul li p a{
+    color: #807079;
+}
+div.content div.right ul li.active{
+    border: none;
+    background: url("../images/icon/article_icon_hover.png") no-repeat left 28px;
+}
+div.content div.right ul li.active h3{
+    color: #4db2f6;
+}
+div.content div.right ul li.active p a{
+    color: #4db2f6;
+}
+div.content div.right div.pages{
+    margin-bottom: 35px;
+}
+div.content div.right div.pages div{
+    float: left;
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+}
+div.content div.right div.pages div.next{
+    border-left: none;
+}
+div.content div.right div.pages div.prev a{
+    color: #6f6f6f;
+}
+div.content div.right div.pages div.next a{
+    color: #e2e2e2;
+}

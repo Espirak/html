@@ -1,0 +1,109 @@
+div#content{
+	height: 4866px;
+	background: url(../images/promotions1_content_bg.jpg);
+}
+div#content div.content{
+	height: 4861px;
+	font-size: 14px;
+	padding: 0 140px;
+	position: relative;
+	background: url(../images/about_content_text_bg.jpg);
+}
+div#content div.content h1{
+	color: #c00604;
+	font-size: 18px;
+	padding-top: 60px;
+	text-align: center;
+}
+div#content div.content h3.date{
+	color: #c00604;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+div#content div.content .red{
+	color: #e60012;
+}
+div#content div.content div.jackie-chan .red{
+	color: #c10005;
+}
+div#content div.content p{
+	line-height: 32px;
+}
+div#content div.content div.jackie-chan{
+	width: 735px;
+	height: 660px;
+	margin: 0 auto;
+	padding-top: 25px;
+	line-height: 40px;
+	text-align: center;
+	background: #dfe3d2;
+}
+div#content div.content div.jackie-chan h3{
+	color: #f6a515;
+	font-size: 24px;
+	line-height: 64px;
+}
+div#content div.content div.s11{
+	padding: 30px 0;
+	text-align: center;
+}
+div#content div.content div.goods-group{
+	width: 735px;
+	background: white;
+	padding: 20px 25px;
+	margin-bottom: 20px;
+}
+div#content div.content div.goods-group div.detail{
+	padding-bottom: 20px;
+	border: 1px solid #0ae2ed;
+}
+div#content div.content div.goods-group div.detail h2{
+	height: 44px;
+	font-size: 18px;
+	line-height: 44px;
+	padding-left: 10px;
+	background: url(../images/promotions_title_bg.jpg);
+}
+div#content div.content div.goods-group div.detail div.img{
+	margin: 20px 0;
+	text-align: center;
+}
+div#content div.content div.goods-group div.detail div.text{
+	padding-left: 10px;
+}
+div#content div.content div.goods-group div.detail div.text p{
+	font-size: 16px;
+	line-height: 40px;
+}
+div#content div.content div.goods-group div.detail div.text p span{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 44px;
+}
+div#content div.content div.gift{
+	width: 785px;
+	background: white;
+}
+div#content div.content div.gift div.gift-title{
+	text-align: center;
+}
+div#content div.content div.gift div.gift-group{
+	margin-top: 50px;
+	text-align: center;
+}
+div#content div.content div.gift div.gift-group h3{
+	text-align: center;
+}
+div#content div.content div.gift div.gift-group h3 span{
+	color: white;
+	padding: 0 10px;
+	font-size: 25px;
+	background: #e1176e;
+	border-radius: 10px 10px 0 0;
+}
+div#content div.content div.gift div.gift-group div.text{
+	border-radius: 5px;
+	padding-bottom: 15px;
+	border: 3px solid #e1176e;
+}

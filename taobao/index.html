@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <div class="site-nav">
+        <div id="J_SiteNavBd" class="site-nav-bd">
+            <ul id="J_SiteNavBdL" class="site-nav-bd-l">
+                <li id="J_LoginInfo" class="menu">
+                    <div id="J_LoginInfoHd" class="menu-hd">
+                        <a href="#"target="_top" class="h">亲，请登录</a>
+                        <a href="#"target="_top">免费注册</a>
+                    </div>
+                </li>
+                <li class="menu mobile">
+                    <div class="menu-hd">
+                        <a href="#"target="_top">手机逛淘宝</a>
+                    </div>
+                </li>
+                <li id="J_Weekend" class="menu weekend"></li>
+            </ul>
+            <ul id="J_SiteNavBdR" class="site-nav-bd-r">
+                <li class="menu home">
+                    <div class="menu-hd">
+                        <a href="#"target="_top" class="h">淘宝网首页</a>
+                    </div>
+                </li>
+                <li class="J_Menu menu my-taobao">
+                    <div class="menu-hd J_MenuMyTaobao">
+                        <a href="#"target="_top">我的淘宝</a>
+                        <span class="arrow-icon-wrapper">
+                            <span class="g-icon arrow-icon"></span>
+                        </span>
+                    </div>
+                </li>
+                <li class="J_Menu menu menu-empty mini-cart">
+                    <div class="menu-hd">
+                        <a href="#"target="_top" id="mc-menu-hd">
+                            <span class="g-icon"></span>
+                            <span>购物车</span>
+                        </a>
+                        <span class="arrow-icon-wrapper">
+                            <span class="g-icon arrow-icon"></span>
+                        </span>
+                    </div>
+                    <div class="menu-bd">
+                        <div class="menu-bd-panel"></div>
+                    </div>
+                </li>
+                <li class="J_Menu menu favorite">
+                    <div class="menu-hd">
+                        <a href="#"target="_top">
+                            <span class="g-icon"></span>
+                            <span>收藏夹</span></a>
+                        <span class="arrow-icon-wrapper">
+                            <span class="g-icon arrow-icon"></span>
+                        </span>
+                    </div>
+                </li>
+                <li class="menu guide">
+                    <div class="menu-hd">
+                        <a href="#"target="_top">商品分类</a>
+                    </div>
+                </li>
+                <li class="site-nav-pipe">|</li>
+                <li class="J_Menu menu seller-center">
+                    <div class="menu-hd">
+                        <a href="#"target="_top">卖家中心</a>
+                        <span class="arrow-icon-wrapper">
+                            <span class="g-icon arrow-icon"></span>
+                        </span>
+                    </div>
+                </li>
+                <li class="J_Menu menu service">
+                    <div class="menu-hd">
+                        <a href="#"target="_top">联系客服</a>
+                        <span class="arrow-icon-wrapper">
+                            <span class="g-icon arrow-icon"></span>
+                        </span>
+                    </div>
+                </li>
+                <li class="J_Menu menu site-map">
+                    <div class="menu-hd">
+                        <a href="#"target="_top">
+                            <span class="g-icon"></span>
+                            <span>网站导航</span>
+                        </a>
+                        <span class="arrow-icon-wrapper">
+                            <span class="g-icon arrow-icon"></span>
+                        </span>
+                    </div>
+                    <div class="menu-bd">
+                        <div class="menu-bd-panel"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="J_Header">
+        <div class="tb-header" role="banner">
+            <div class="tb-header-content">
+                <div class="tb-header-logo">
+                    <a href="#"target="_blank" >
+                        <img height="38"  src="images/logo.png">
+                    </a>
+                </div>
+                <div id="J_Market" class="tb-header-market" role="dialog">
+                    <a href="#"class="tb-header-market-hd">更多市场
+                        <i class="tb-header-market-icon">
+                            <em></em>
+                            <span></span>
+                        </i>
+                    </a>
+                    <div class="tb-header-market-bd"></div>
+                </div>
+                <div class="J_Search tb-header-search search " role="search">
+                    <div class="search-panel">
+                        <form action="#" name="search" class="J_SearchForm">
+                            <div class="search-buttons">
+                                <button class="J_PrimarySearch search-button primary">搜淘宝</button>
+
+                                <button class="J_SecondarySearch search-button secondary" type="submit">
+                                    搜本店
+                                </button>
+                            </div>
+                            <div class="search-panel-fields">
+                                <div class="search-combobox" id="ks-component253">
+                                    <div class="search-combobox-input-wrap">
+                                        <input class="search-combobox-input"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page">
+        <div id="content">
+            <p id="J_dcpg" class="design-page" style="display:none;"></p>
+            <div class="J_AsyncDC" data-type="css">
+
+            </div>
+            <div id="J_DcHead" class="J_AsyncDC tb-async-head tb-shop">
+                <div class="tb-shop" id="hd">
+                    <div class="layout grid-m J_TLayout">
+                        <div class="col-main">
+                            <div class="main-wrap J_TRegion">
+                                <div class="J_TModule">
+                                    <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-custom-banner" style="position: relative;">
+                                    <s class="skin-box-tp"><b></b></s>
+                                    <div class="skin-box-bd">
+                                        <div>
+                                            <div class="banner-box"></div>
+                                        </div>
+                                    </div>
+                                    <s class="skin-box-bt"><b></b></s>
+                                </div>
+                                </div>
+                                <div class="J_TModule">
+                                    <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-nav-ch " style="display: block; visibility: visible;">
+                                        <s class="skin-box-tp"><b></b></s>
+
+                                        <div class="skin-box-bd">
+                                            <div class="all-cats popup-container">
+                                                <div class="all-cats-trigger popup-trigger">
+                                                    <a class="link " href="#">
+                                 <span class="title">
+                                                                  所有分类
+                                                          </span>
+                                                        <i class="popup-icon"></i>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                            <ul class="menu-list">
+                                                <li class="menu">
+                                                    <a class="link" href="#"><span class="title">首页</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <s class="skin-box-bt"><b></b></s>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bd">
+                <div id="detail">
+                    <div class="tb-detail-bd tb-clear">
+                        <div class="tb-summary tb-clear">
+                            <div class="tb-item-info tb-clear">
+                                <div class="tb-item-info-l">
+                                    <div class="tb-gallery">
+                                        <div class="tb-booth tb-pic tb-main-pic">
+                                            <a href="#" rel="nofollow" target="_blank">
+                                                <span class="ks-imagezoom-wrap">
+                                                    <img id="J_ImgBooth" src="images/goods.jpg">
+                                                    <span class="ks-imagezoom-icon"></span>
+                                                    <span class="ks-imagezoom-lens"></span>
+                                                </span>
+                                            </a>
+                                            <div class="zoom-icon tb-iconfont" id="J_ZoomIcon">ő</div>
+                                        </div>
+                                        <ul id="J_UlThumb" class="tb-thumb tb-clearfix">
+                                            <li class="tb-selected" data-index="0">
+                                                <div class="tb-pic tb-s50">
+                                                    <a href="#">
+                                                        <img src="images/goods_thumb.jpg">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div id="J_Social" class="tb-social tb-clearfix">
+                                        <ul>
+                                            <li class="tb-social-fav">
+                                                <a class="J_TDialogTrigger" href="#">
+                                                    <i class="tb-icon"></i> 收藏宝贝<em class="J_FavCount"> (5人气)</em>
+                                                </a>
+                                            </li>
+                                            <li class="tb-social-split"></li>
+                                            <li class="tb-social-share">
+                                                <a class="J_Share" href="#">
+                                                    <i class="tb-icon"></i> 分享
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tb-item-info-r">
+                                    <div class="tb-property tb-property-x">
+                                    <div class="tb-wrap tb-wrap-newshop">
+                                        <div id="J_Title" class="tb-title">
+                                            <h3 class="tb-main-title">
+                                                <span class="tb-stuff-status">代购</span>
+                                                专柜正品REDCARD红牌2016春夏新款女装代购6057E
+                                            </h3>
+                                            <p class="tb-subtitle"></p>
+                                            <div id="J_TEditItem" class="tb-editor-menu">
+                                                <div id="J_Report" class="tb-report">
+                                                    <p class="tb-report-hd">举报</p>
+                                                    <ul class="tb-report-bd">
+                                                        <li><a id="J_isuit" href="#" target="_blank">举报此商品</a></li>
+                                                        <li><a href="#" target="_blank">商品举报演示</a></li>
+                                                        <li><a href="#" target="_blank">购物安全防骗</a></li>
+                                                        <li><a href="#" target="_blank">消费质量曝光</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="J_Banner" class="tb-banner"></div>
+                                        <ul class="tb-meta tb-promo-meta">
+
+                                            <li id="J_StrPriceModBox" class="tb-detail-price tb-clear J_PriceItem">
+                                                <span class="tb-property-type">价格</span>
+                                                <div class="tb-property-cont">
+                                                    <strong id="J_StrPrice">
+                                                        <em class="tb-rmb">¥</em>
+                                                        <em class="tb-rmb-num">19800.00</em>
+                                                    </strong>
+                                                </div>
+                                            </li>
+                                            <li id="J_PromoPrice" class="tb-detail-price tb-promo-price tb-clear">
+                                                <span class="tb-property-type">淘宝价</span>
+                                                <div class="tb-property-cont">
+                                                    <div id="J_Promo" class="tb-promo-mod">
+                                                        <div id="J_PromoHd" class="tb-promo-hd tb-promo-item">
+                                                            <div class="tb-promo-item-bd">
+                                                                <strong class="tb-promo-price">
+                                                                    <em class="tb-rmb">¥</em>
+                                                                    <em id="J_PromoPriceNum" class="tb-rmb-num">12870.00</em>
+                                                                </strong>
+                                                                <span id="J_PromoType" class="tb-promo-type">秋冬新款</span>
+                                                                <span id="J_PromoTips" class="tb-promo-tips"></span>
+                                                            </div>
+                                                            <div class="tb-promo-item-ft">
+
+                                                            </div>
+                                                        </div>
+                                                        <div id="J_PromoBd" class="tb-promo-bd"></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li id="J_Duty"></li>
+
+                                            <li id="J_OtherDiscount" class="tb-clear tb-hidden">
+                                                <div class="tb-other-discount">
+                                                    <div id="J_RedGift" class="tb-red-gift tb-hidden"></div>
+                                                    <div id="J_GoldCoin" class="tb-coin tb-hidden"></div>
+                                                </div>
+                                            </li>
+
+                                            <li id="J_Counter" class="tb-counter">
+                                                <span class="tb-property-type">销量</span>
+                                                <div class="tb-counter-bd">
+                                                    <div class="tb-rate-counter">
+                                                        <a id="J_ReviewTabTrigger" href="#">
+                                                            <strong id="J_RateCounter" class="tb-zero">0</strong>
+                                                            <span>累计评论</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="tb-sell-counter">
+                                                        <a href="#" >
+                                                            <strong id="J_SellCounter" class="tb-zero">0</strong>
+                                                            <span>交易成功</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li id="J_MorePromoSlider" class="tb-more-promo-slider tb-clearfix" style="display: none">
+                                                <ul id="J_MorePromoList"></ul>
+                                                <div class="post-script">以上价格可在付款时选择享用</div>
+                                            </li>
+                                        </ul>
+
+                                        <div id="J_StepPrice"></div>
+
+                                        <div id="J_logistic">
+                                            <div class="tb-logistic tb-clearfix">
+                                                <span class="tb-name tb-property-type">配送</span>
+                                                <div id="J_LogisticInfo" class="tb-logistic-info">
+                                                    <div class="wl-areainfo clearfix">
+                                                        <span id="J_WlAreaInfo" class="wl-areacon">
+                                                            <span id="J-From">江苏无锡</span> 至
+                                                            <span id="J-To">
+                                                                <span class="wl-addressinfo" id="J_WlAddressInfo">河南鹤壁 <s></s></span>
+                                                            </span>
+                                                        </span>
+
+                                                        <span class="loading" id="J-Loading"></span>
+                                                    </div>
+                                                    <div id="J_WlServiceInfo" class="wl-serviceinfo">
+                                                        <span class="wl-servicetitle" id="J_WlServiceTitle">快递
+                                                            <span class="wl-yen">¥</span>10.00 <s></s></span>
+                                                    </div>
+                                                    <div id="serviceFeeListInfo" class="wl-serviceinfo"></div>
+                                                    <div id="J_WlServiceTitleMark" class="wl-serviceinfo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="J_SepLine" class="sep-line"></div>
+
+                                        <div id="J_isku" class="tb-key tb-key-sku">
+                                            <div class="tb-skin">
+                                                <dl class="J_Prop J_TMySizeProp tb-prop tb-clear  J_Prop_measurement ">
+                                                    <dt class="tb-property-type">尺码</dt>
+                                                    <dd>
+                                                        <ul class="J_TSaleProp select-size tb-clearfix">
+                                                            <li class="tb-selected">
+                                                                <a href="#">
+                                                                    <span>9*M*160</span>
+                                                                </a>
+                                                                <i>已选中</i>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span>11*L*165</span>
+                                                                </a>
+                                                                <i>已选中</i>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span>13*XL*170</span>
+                                                                </a>
+                                                                <i>已选中</i>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+
+                                                <span id="J_TMySize" class="size-btn">› 尺码助手</span>
+
+                                                <dl class="J_Prop tb-prop tb-clear  J_Prop_Color ">
+                                                    <dt class="tb-property-type">颜色分类</dt>
+                                                    <dd>
+                                                        <ul class="J_TSaleProp select-attr tb-img tb-clearfix">
+                                                            <li class="tb-txt tb-selected">
+                                                                <a href="#">
+                                                                    <span>6057E连衣裙19800</span>
+                                                                </a>
+                                                                <i>已选中</i>
+                                                            </li>
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+
+                                                <dl class="tb-amount tb-clear">
+                                                    <dt class="tb-property-type">数量</dt>
+                                                    <dd>
+                                                        <span class="tb-stock" id="J_Stock">
+                                                            <a href="#" class="tb-reduce J_Reduce tb-iconfont tb-disable-reduce">ƛ</a>
+                                                            <input id="J_IptAmount" type="text" class="tb-text" value="1" maxlength="8" >
+                                                            <a href="#" hidefocus="" class="tb-increase J_Increase tb-iconfont" >ƚ</a>件
+                                                        </span>
+                                                        <em>(库存<span id="J_SpanStock" class="tb-count">24</span>件)</em>
+
+                                                    </dd>
+                                                </dl>
+                                                <dl id="J_DlChoice" class="tb-choice tb-clear">
+                                                    <dt>请选择：</dt>
+                                                    <dd>
+                                                        <em>尺码</em>
+
+                                                        <em>颜色分类</em>
+                                                    </dd>
+                                                </dl>
+
+                                                <div id="J_SureSKU" class="tb-sure">
+                                                    <p class="tb-choice">请勾选您要的商品信息</p>
+                                                    <p class="tb-sure-continue">
+                                                        <a id="J_SureContinue" href="#">确定</a>
+                                                    </p>
+                                                    <span class="close J_Close tb-iconfont">ß</span>
+                                                </div>
+                                                <div class="tb-msg tb-hidden" style="display: none;">
+                                                    <p class="tb-stop">发生错误</p>
+                                                </div>
+                                                <div id="J_juValid" class="tb-action tb-clearfix ">
+
+                                                    <div class="tb-btn-buy">
+
+                                                        <a href="#" class="J_LinkBuy">
+                                                            立即购买
+                                                        </a>
+
+                                                    </div>
+
+                                                    <div class="tb-btn-add">
+
+                                                        <a href="#" class="J_LinkAdd" >
+                                                            <i class="tb-iconfont">ŭ</i>加入购物车
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tb-extra" id="J_tbExtra">
+
+                                            <dl id="J_ServiceIcon" class="tb-service-icon">
+                                                <dt>承诺</dt>
+                                                <dd id="J_ServiceIconBd">
+
+                                                </dd>
+                                            </dl>
+
+                                            <dl data-spm="1000126">
+                                                <dt>支付</dt>
+                                                <dd>
+                                                    <a href="#" target="_blank">
+                                                        <i class="tb-icon-quick-pay"></i>
+                                                        快捷支付
+                                                    </a>
+
+                                                    <a href="#" target="_blank">
+                                                        <i class="tb-icon-credit-card-payment"></i>
+                                                        信用卡支付
+                                                    </a>
+
+                                                    <a href="#" target="_blank">
+                                                        <i class="tb-icon-yu-e-bao"></i>
+                                                        余额宝支付
+                                                    </a>
+
+                                                    <a href="#" target="_blank">
+                                                        <i class="tb-icon-hua-bei-pay"></i>
+                                                        蚂蚁花呗
+                                                    </a>
+                                                </dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt>提醒</dt>
+                                                <dd style="line-height: 22px;color: #6c6c6c;">
+                                                    <p>此商品为代购服务，不支持7天无理由退货</p>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tb-sidebar tb-clear">
+                            <div id="J_ShopInfo" class="tb-shop-info tb-shop-info-gold-border">
+                            <a class="J_ShopInfoHeader tb-shop-info-bg" href="#" target="_blank">
+                                <img width="198" src="images/Diamonds.png">
+                            </a>
+                            <div class="tb-shop-info-wrap">
+                                <div class="tb-shop-info-hd">
+                                    <div class="tb-shop-name">
+                                        <dl>
+                                            <dd>
+                                                <strong>
+                                                    <a href="#" target="_blank">
+                                                        雅衣阁台装精品代购店
+                                                    </a>
+                                                </strong>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="tb-shop-rank tb-rank-blue">
+                                        <dl>
+                                            <dt>信誉：</dt>
+                                            <dd>
+                                                <a href="#" target="_blank">
+                                                    <i></i>
+                                                    <i></i>
+                                                    <i></i>
+                                                    <i></i>
+                                                    <i></i>
+                                                </a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+
+                                    <div class="tb-shop-seller">
+                                        <dl>
+                                            <dt>掌柜：</dt>
+                                            <dd>
+
+                                                <a class="tb-seller-name" href="#" target="_blank">
+                                                    睿星之光
+                                                </a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="tb-shop-ww">
+                                        <dl>
+                                            <dt>联系：</dt>
+                                            <dd>
+                                                <span class="ww-light ww-large">
+                                                    <a href="#" target="_blank" class="ww-inline ww-online">
+                                                        <span>旺旺在线</span>
+                                                    </a>
+                                                </span>
+                                            </dd>
+                                        </dl>
+                                    </div>
+
+                                    <div class="tb-shop-icon">
+                                        <dl>
+                                            <dt>资质：</dt>
+                                            <dd>
+                                                <a class="tb-icon tb-icon-alipay-persion-auth" href="#" target="_blank"></a>
+
+                                                <a class="tb-seller-bail" href="#" target="_blank">
+                                                    <span class="tb-icon tb-icon-bail"></span>
+                                                    <span class="tb-seller-bail-text">
+                                                        1000<span class="tb-seller-bail-unit">元</span>
+                                                    </span>
+                                                </a>
+
+                                            </dd>
+                                        </dl>
+                                    </div>
+
+                                </div>
+                                <div class="tb-shop-info-bd">
+
+                                    <div class="tb-shop-rate">
+                                        <dl>
+                                            <dt>描述</dt>
+
+                                            <dd class="tb-rate-higher">
+                                                <a href="#" target="_blank">
+                                                    4.9
+                                                </a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>服务</dt>
+
+                                            <dd class="tb-rate-higher">
+                                                <a href="#" target="_blank">
+                                                    4.9
+                                                </a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>物流</dt>
+
+                                            <dd class="tb-rate-higher">
+                                                <a href="#" target="_blank">
+                                                    4.9
+                                                </a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+
+                                </div>
+                                <div class="tb-shop-info-ft">
+                                    <a href="#" target="_blank">进入店铺</a>
+                                    <a class="J_TDialogTrigger J_TokenSign" href="#">收藏店铺</a>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div id="J_Pine" class="tb-pine">
+                                <div class="tb-clearfix tuijian-module tuijian-module-detail-pine">
+                                    <div class="tuijian-hd tb-clearfix">
+                                        <div class="tuijian-l">
+                                            <h2 class="tuijian-label">看了又看</h2>
+                                        </div>
+                                        <div class="tuijian-r">
+                                            <div class="refresh"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tuijian-bd tb-clearfix">
+                                        <ul>
+                                            <li class="tuijian-item">
+                                                <div class="tuijian-l">
+                                                    <div class="tuijian-img clearfix">
+                                                        <div class="pic-con">
+                                                            <a href="#" target="_blank" class="img-con">
+                                                                <img src="images/img1.jpg"></a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="tuijian-price">
+                                                        <span class="now-price">
+                                                            <b class="yen">¥</b>
+                                                            <b class="price">1.2万</b>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li class="tuijian-item">
+                                                <div class="tuijian-l">
+                                                    <div class="tuijian-img clearfix">
+                                                        <div class="pic-con">
+                                                            <a href="#" target="_blank" class="img-con">
+                                                                <img src="images/img1.jpg"></a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="tuijian-price">
+                                                        <span class="now-price">
+                                                            <b class="yen">¥</b>
+                                                            <b class="price">1.6万</b>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="J_PPayGuide"></div>
+                    <div id="tad_head_area"></div>
+                    <div id="tad_first_area"></div>
+                </div>
+                <div id="J_TabBarWrap" class="tb-tabbar-wrap tb-clear">
+                    <div class="tb-tabbar-mid-wrap tb-clear">
+
+                        <div class="tb-shop-search">
+                            <div class="search-panel">
+                                <form target="_top" action="#" id="J_TShopSearchForm" class="search-panel-focused">
+                                    <div class="search-button">
+                                        <button id="J_ShopSearchIcon" class="tb-iconfont" type="submit">ő</button>
+                                    </div>
+                                    <div class="search-panel-fields">
+                                        <input id="q" name="q" placeholder="搜本店">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="tb-tabbar-inner-wrap">
+                            <ul id="J_TabBar" class="tb-tabbar tb-clear">
+                                <li id="SubWrap" class="tb-first selected">
+                                    <a class="tb-tab-anchor">宝贝详情</a>
+                                    <div class="tb-selected-indicator"></div>
+                                </li>
+                                <li id="reviews">
+                                    <a class="tb-tab-anchor">
+                                        累计评论
+                                        <em class="J_ReviewsCount">0</em>
+                                    </a>
+                                    <div class="tb-selected-indicator"></div>
+                                </li>
+
+                                <li id="deal-record">
+                                    <a class="tb-tab-anchor">
+                                        专享服务</a>
+                                    <div class="tb-selected-indicator"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layout grid-s5m0 tb-main-layout">
+                    <div class="col-main clearfix">
+                        <div class="main-wrap  J_TRegion" id="J_MainWrap">
+                            <div class="sub-wrap" id="J_SubWrap">
+                                <div id="attributes" class="attributes">
+                                    <ul class="attributes-list">
+                                        <li >货号:&nbsp;6057E</li>
+                                        <li >品牌:&nbsp;红牌</li>
+                                        <li >适用年龄:&nbsp;35-39周岁</li>
+                                        <li >年份季节:&nbsp;2016年春季</li>
+                                        <li >颜色分类:&nbsp;6057E连衣裙19800</li>
+                                        <li >尺码:&nbsp;9*M*160 11*L*165 13*XL*170</li>
+                                    </ul>
+                                </div>
+
+                                <div id="service">
+
+                                </div>
+                                <div id="tad_second_area" class="tad-stage">
+
+                                </div>
+
+                                <div id="description" class="J_DetailSection tshop-psm ke-post">
+                                    <div id="J_DivItemDesc" class="content">
+                                        <p>
+                                            <img align="middle" src="images/notice.jpg">
+                                        </p>
+                                        <p>
+                                            <img align="middle" src="images/goods_des.jpg"></p>
+                                        <p>
+                                            <strong>
+                                                <font size="4">代购REDCARD红牌</font>
+                                                <font size="+0">
+                                                    <font size="4">
+                                                        <span>2016春夏所有款式，请提供货号，颜色，尺码，现货24小时内</span>
+                                                    </font>
+                                                </font>
+                                                <font size="4">发货，</font>
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                <font size="4">调货</font>
+                                            </strong>
+                                            <strong>
+                                                <font size="4">3到7天，下单后请耐心等待!宝贝吊牌，水洗唛齐全，支持任何形式验货！</font>
+                                            </strong>
+                                        </p>
+                                        <p>
+                                        <strong>
+                                            <strong style="line-height: 1.5;">
+                                                <font size="4"></font>
+                                            </strong>&nbsp; &nbsp; &nbsp;&nbsp;季初上货时，公司货品出货是陆续上货，没有出货的款式，看图购买的顾客请耐心等待！</strong>
+                                        </p>
+                                        <p>
+                                            <span style="font-size: 18.0px;">
+                                                <strong>
+                                                    <font color="#4f273b">【尺 寸】:</font>
+                                                </strong>
+                                            </span>
+                                            <strong style="line-height: 27.0px;color: #400040;font-size: 18.0px;">&nbsp;&nbsp;9*
+                                                <span style="widows: 2;orphans: 2;">M*160/84 &nbsp;11*L*165/88 &nbsp;13*XL*170/92</span>
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <img align="middle" src="images/goods_show.jpg">
+                                        </p>
+                                        <p>
+                                            <img align="middle" src="images/img2.jpg">
+                                        </p>
+                                        <p><img align="middle" src="images/img3.jpg" class="" width="750" height="965"></p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="J_reviews" style="display: none">
+                                <iframe id="iframe1" src="html/reviews.html" scrolling="no" frameborder="0"></iframe>
+                            </div>
+
+                            <div id="J_deal-record" style="display: none">
+                                <div class="kg-contract">
+                                    <h2 class="service-list-title"><em>卖家承诺以下服务</em></h2>
+                                    <ul class="service-list-items">
+
+                                        <li class="service-item">
+                                            <img class="icon" src="//img.alicdn.com/tps/i2/TB1TzDRFFXXXXafapXXWA_BHXXX-48-48.png">
+                                            <div class="info">
+                                                <h3 class="name">8天退货</h3>
+                                                <div class="detail"><p>退货条件：在商品签收8天内，商品包装完好、商品外观完好，可提出退货申请。</p>
+                                                    <p>邮费说明：包邮商品发货邮费卖家承担；非包邮商品发货邮费卖家承担；退货邮费卖家承担。</p></div>
+                                            </div>
+                                        </li>
+
+                                        <li class="service-item">
+                                            <img class="icon" src="//img.alicdn.com/tps/i2/T1in3MFMNcXXceU5Yh-48-48.png">
+                                            <div class="info">
+                                                <h3 class="name">消费者保障服务</h3>
+                                                <div class="detail">该卖家已缴纳 2005.0 元保证金。<p>在确认收货 15 天内，如有商品质量问题、描述不符或未收到货等，您有权申请退款或退货，来回邮费由卖家承担。</p></div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="J_AsyncDC tb-custom-area tb-shop" id="J_AsyncDCMain"></div>
+                        </div>
+
+                        <div class="correlative-items" id="detail-recommend-linjia" >
+                            <div class="linjia-items">
+                                <h5>看了该宝贝的人还看了</h5>
+                                <div class="small-rect"></div>
+                                <div class="page_num">1/3</div>
+                                <div class="prev"></div>
+                                <div class="next"></div>
+
+                                <div class="linjia-items-slide" style="height: 256px; visibility: visible;">
+                                    <ul class="pages-nav">
+
+                                        <li class="selected"><a href="#">1</a></li>
+
+                                        <li><a href="#">2</a></li>
+
+                                        <li><a href="#">3</a></li>
+
+                                    </ul>
+                                    <div class="slide-content">
+                                        <div class="slide-pannel" style="position: absolute; z-index: 0; opacity: 1; display: block;">
+                                            <ul>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="tab-nav" style="display:none">
+                                        <li class="selected">
+                                            <a href="#">1</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">2</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">3</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="linjia-items">
+                                <h5>邻家好货</h5>
+                                <div class="small-rect"></div>
+                                <div class="page_num">1/3</div>
+                                <div class="prev"></div>
+                                <div class="next"></div>
+
+                                <div class="linjia-items-slide" style="height: 256px; visibility: visible;">
+                                    <ul class="pages-nav">
+
+                                        <li class="selected"><a href="#">1</a></li>
+
+                                        <li><a href="#">2</a></li>
+
+                                        <li><a href="#">3</a></li>
+
+                                    </ul>
+                                    <div class="slide-content">
+                                        <div class="slide-pannel" style="position: absolute; z-index: 0; opacity: 1; display: block;">
+                                            <ul>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="pic">
+                                                            <a class="side-item" target="_blank" href="#" >
+                                                                <img src="images/img6.jpg"></a>
+                                                        </div>
+                                                        <div class="desc">
+                                                            <a class="side-item" target="_blank" href="#" >芳芳FangFang 2016春夏新款专柜正品代购9163A 9170B</a>
+                                                        </div>
+                                                        <p class="tuijian-price">
+                                                            <span class="tuijian-light">
+                                                                <b class="yen">¥</b>
+                                                                <b class="price">1534.00</b>
+                                                            </span>
+                                                            <span class="old-price">
+                                                                <b class="yen">&nbsp;¥</b>
+                                                                <b class="price">2360.00</b>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="tab-nav" style="display:none">
+                                        <li class="selected">
+                                            <a href="#">1</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">2</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">3</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="J_AsyncDC" data-type="dr">
+                            <div id="official-remind">
+                            <dl class="tb-security">
+                                <dt>安全提示：</dt>
+                                <dd>
+                                    <p>交易中请勿使用
+                                        <em class="tb-h">阿里旺旺</em>以外的聊天工具沟通，不要接收<em class="tb-h">可疑文件</em>和不要点击<em class="tb-h">不明来源</em>的链接，支付前核实好域名和支付详情。
+                                        淘宝不会以订单有问题，让您提供任何<em class="tb-h">银行卡</em>、<em class="tb-h">密码</em>、<em class="tb-h">手机验证码</em>！遇此情况请终止通话或举报到淘宝网 <a href="#" target="_top">常见骗术</a></p>
+                                    <p>推荐安全软件：
+
+                                        <span><img src="images/dun.png" ><a href="#" target="_top">阿里钱盾</a> </span>
+
+                                        <span><img src="images/uc.png" ><a href="#" target="_top">UC浏览器</a> </span>
+
+                                        <span><img src="images/guanjia.jpg" ><a href="#" target="_top">腾讯电脑管家</a> </span>
+
+                                        <span><img src="images/360.png" ><a href="#" target="_top">360网盾</a> </span>
+
+
+                                        <a href="#" target="_blank">安全软件中心</a>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <dl class="tb-exemption">
+                                <dt>内容申明：</dt>
+                                <dd>淘宝为第三方交易平台及互联网信息服务提供者，淘宝（含网站、客户端等）所展示的商品/服务的标题、价格、详情等信息内容系由店铺经营者发布，其真实性、准确性和合法性均由店铺经营者负责。淘宝提醒用户购买商品/服务前注意谨慎核实。如用户对商品/服务的标题、价格、详情等任何信息有任何疑问的，请在购买前通过阿里旺旺与店铺经营者沟通确认；淘宝存在海量店铺，如用户发现店铺内有任何违法/侵权信息，请立即向淘宝举报并提供有效线索。</dd>
+                            </dl>
+                        </div></div>
+                    </div>
+                    <div class="col-sub tb-shop J_TRegion" style="overflow: visible; margin-top: -17px;">
+                        <div class="J_TModule">
+                            <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-srch-inshop">
+                            <s class="skin-box-tp"><b></b></s>
+                            <div class="skin-box-hd">
+                                <i class="hd-icon"></i>
+                                <h3>
+        				<span>
+            			                					            					本店搜索
+            					            				        				</span>
+                                </h3>
+                            </div>
+                            <div class="skin-box-bd">
+                                <form name="SearchForm" action="#" method="get">
+                                    <ul>
+                                        <input type="hidden" name="search" value="y">
+                                        <li class="keyword">
+                                            <label for="keyword">
+                                                <span class="key">关键字</span>
+                                                <input type="text" size="18" name="keyword" autocomplete="off" value="" class="keyword-input J_TKeyword prompt">
+                                            </label>
+
+                                        </li>
+                                        <li class="price">
+                                            <label for="price">
+                                                <span class="key">价格</span>
+                                                <input type="text" id="price1" name="lowPrice" class="J_TCheckPrice J_TPrice1" size="4" value="">
+                                                <span class="connect-line">-</span>
+                                                <input type="text" id="price2" name="highPrice" class="J_TCheckPrice J_TPrice2" size="4" value="">
+                                            </label>
+                                        </li>
+                                        <li class="submit">
+                                            <input value="搜索" class="J_TSubmitBtn btn" type="submit">
+                                        </li>
+                                    </ul>
+                                </form>
+                                <div class="hot-keys">
+
+                                </div>
+                            </div>
+                            <s class="skin-box-bt"><b></b></s>
+
+                        </div>
+                        </div>
+                        <div class="J_TModule" >
+                            <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-item-cates">
+                                <s class="skin-box-tp"><b></b></s>
+
+                                <div class="skin-box-hd">
+                                    <i></i>
+
+                                    <h3>
+                                        <span>
+                                            宝贝分类
+                                        </span>
+                                    </h3>
+
+                                    <div class="skin-box-act disappear">
+                                        <a href="#">更多</a>
+                                    </div>
+                                </div>
+                                <div class="skin-box-bd">
+
+                                    <ul class="J_TCatsTree cats-tree J_TWidget">
+
+                                        <li class="cat fst-cat float">
+                                            <h4 class="cat-hd fst-cat-hd">
+                                                <i class="cat-icon fst-cat-icon acrd-trigger active-trigger ks-switchable-trigger-internal1249"></i>
+                                                <a href="#" class="cat-name fst-cat-name" >查看所有宝贝</a>
+                                            </h4>
+                                            <ul class="fst-cat-bd ks-switchable-panel-internal1250" id="ks-accordion-tab-panel1252" >
+                                                <a href="#" class="cat-name" >按销量</a>
+                                                <a href="#" class="cat-name" >按新品</a>
+                                                <a href="#" class="cat-name" >按价格</a>
+                                                <a href="#" class="cat-name" >按收藏</a>
+                                            </ul>
+                                        </li>
+
+                                        <li class="cat fst-cat ">
+                                            <h4 class="cat-hd fst-cat-hd">
+                                                <i class="cat-icon fst-cat-icon acrd-trigger active-trigger ks-switchable-trigger-internal1249"></i>
+                                                <a class="cat-name fst-cat-name" href="#">国  内  专  柜</a>
+
+                                            </h4>
+                                            <ul class="fst-cat-bd ks-switchable-panel-internal1250" id="ks-accordion-tab-panel1253">
+                                                <li class="cat snd-cat  ">
+                                                    <h4 class="cat-hd snd-cat-hd">
+                                                        <i class="cat-icon snd-cat-icon"></i><a class="cat-name snd-cat-name" href="#">FangFang---    芳芳</a>
+                                                    </h4>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="cat fst-cat ">
+                                            <h4 class="cat-hd fst-cat-hd">
+                                                <i class="cat-icon fst-cat-icon acrd-trigger active-trigger ks-switchable-trigger-internal1249"></i>
+                                                <a class="cat-name fst-cat-name" href="#">台  湾  专  柜</a>
+
+                                            </h4>
+                                            <ul class="fst-cat-bd ks-switchable-panel-internal1250">
+                                                <li class="cat snd-cat  ">
+                                                    <h4 class="cat-hd snd-cat-hd">
+                                                        <i class="cat-icon snd-cat-icon"></i><a class="cat-name snd-cat-name" href="#">J&amp;NINA--- 郭佩玲</a>
+                                                    </h4>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="cat fst-cat ">
+                                            <h4 class="cat-hd fst-cat-hd">
+                                                <i class="cat-icon fst-cat-icon acrd-trigger active-trigger ks-switchable-trigger-internal1249"></i>
+                                                <a class="cat-name fst-cat-name" href="#">意大利专柜代购</a>
+
+                                            </h4>
+                                            <ul class="fst-cat-bd ks-switchable-panel-internal1250" id="ks-accordion-tab-panel1255">
+                                                <li class="cat snd-cat  ">
+                                                    <h4 class="cat-hd snd-cat-hd">
+                                                        <i class="cat-icon snd-cat-icon"></i><a class="cat-name snd-cat-name" href="#">MIUMIU</a>
+                                                    </h4>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="cat fst-cat no-sub-cat ">
+                                            <h4 class="cat-hd fst-cat-hd">
+                                                <i class="cat-icon fst-cat-icon"></i>
+                                                <a class="cat-name fst-cat-name" href="#">定 金 链 接</a>
+                                            </h4>
+                                        </li>
+                                        <li class="cat fst-cat no-sub-cat ">
+                                            <h4 class="cat-hd fst-cat-hd">
+                                                <i class="cat-icon fst-cat-icon"></i>
+                                                <a class="cat-name fst-cat-name" href="#">特价处理</a>
+                                            </h4>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <s class="skin-box-bt"><b></b></s>
+
+                            </div>
+                        </div>
+                        <div class="J_TModule">
+                            <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-top-list">
+                                <s class="skin-box-tp"><b></b></s>
+                                <div class="skin-box-hd">
+                                    <i class="hd-icon"></i>
+                                    <h3>
+                                        <span>宝贝排行榜</span>
+                                    </h3>
+                                    <div class="skin-box-act disappear">
+                                        <a href="#" class="more">更多</a>
+                                    </div>
+                                </div>
+                                <div class="skin-box-bd">
+                                    <ul class="top-list-tab">
+                                        <li class="selected"><span class="J_SaleTab tab1">销售量</span></li>
+                                        <li class=" J_Collect"><span class="J_CollectTab tab2">收藏数</span></li>
+                                    </ul>
+                                    <div class="panels">
+                                        <div class="panel sale">
+                                            <ul>
+                                                <li class="item even first">
+                                                    <div class="ranking">
+                                                        <span>1</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">本店代购专用定金链接</a></p>
+                                                        <p class="price">￥<span>300.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">9</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item odd ">
+                                                    <div class="ranking">
+                                                        <span>2</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img  src="images/img5.jpg" class="hover-show"></a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a href="#" target="_blank">专柜正品FangFang芳芳2016春夏新款女装代购3735A 3735C</a></p>
+                                                        <p class="price">￥<span>2360.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">4</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item even ">
+                                                    <div class="ranking">
+                                                        <span>3</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img  src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a href="#" target="_blank">专柜正品2016春夏J&amp;NINA郭佩玲A16S117F A16S426A A16S427C</a></p>
+                                                        <p class="price">￥<span>4280.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">3</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item odd ">
+                                                    <div class="ranking">
+                                                        <span>4</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a href="#" target="_blank">专柜正品FangFang芳芳2016春夏新款女装代购3745A 3745C</a></p>
+                                                        <p class="price">￥<span>1960.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">3</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item even ">
+                                                    <div class="ranking">
+                                                        <span>5</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">专柜正品FangFang芳芳2016春夏新款女装代购9032K 9010D 9031C</a></p>
+                                                        <p class="price">￥<span>2560.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">3</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item odd ">
+                                                    <div class="ranking">
+                                                        <span>6</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img   src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">专柜正品2016春夏J&amp;NINA郭佩玲A16S377K A16S257C</a></p>
+                                                        <p class="price">￥<span>2980.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">2</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item even ">
+                                                    <div class="ranking">
+                                                        <span>7</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img   src="images/img5.jpg" class="hover-show"></a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">专柜正品FangFang芳芳2016春夏新款女装代购5120A 5202C</a></p>
+                                                        <p class="price">￥<span>1760.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">2</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item odd ">
+                                                    <div class="ranking">
+                                                        <span>8</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img   src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">专柜正品香缇卡CHANTECA2016春夏代购20017A 20018B</a></p>
+                                                        <p class="price">￥<span>1280.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">2</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item even ">
+                                                    <div class="ranking">
+                                                        <span>9</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/s.gif" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">专柜正品香缇卡CHANTECA2016春夏代购20047A 20048D</a></p>
+                                                        <p class="price">￥<span>1280.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">2</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="item odd last">
+                                                    <div class="ranking">
+                                                        <span>10</span>
+                                                    </div>
+                                                    <div class="more">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="img">
+                                                        <a href="#" target="_blank">
+                                                            <img src="images/img5.jpg" class="hover-show">
+                                                        </a>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="desc"><a  href="#" target="_blank">专柜正品维娜VERNA2016春夏新款女装代购6028D</a></p>
+                                                        <p class="price">￥<span>3080.00</span></p>
+                                                        <p class="sale">
+                                                            已售出<span class="sale-count">2</span>件
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel collection disappear">
+                                        </div>
+                                        <div class="control-group">
+                                            <a class="collect-this-shop border-radius" href="#" target="_blank">收藏本店</a>
+                                            <span class="split">/</span>
+                                            <a class="show-more border-radius hotsell_desc" target="_blank" href="#">查看更多宝贝</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <s class="skin-box-bt"><b></b></s>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-extra" id="J_IdsSegments">
+                        <ul class="tb-vertical-desc-segments-list tb-clearfix tb-vertical-desc-segments-list-hide" style="right: 0px; height: 2640px;">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tb-shop" id="ft">
+                <div class="layout grid-m J_TLayout">
+
+                <div class="col-main">
+                    <div class="main-wrap J_TRegion">
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="copyright">
+                <div class="shop-info">
+                    <a target="_blank" class="version" href="#">
+                        <img src="images/wangpu.png"></a>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_2014">
+        <div class="footer">
+            <div class="footer-hd">
+                <p>
+                    <a href="#">阿里巴巴集团</a>
+                    <b>|</b>
+                    <a href="#">淘宝网</a>
+                    <b>|</b>
+                    <a href="#">天猫</a>
+                    <b>|</b>
+                    <a href="#">聚划算</a>
+                    <b>|</b>
+                    <a href="#">全球速卖通</a>
+                    <b>|</b>
+                    <a href="#">阿里巴巴国际交易市场</a>
+                    <b>|</b>
+                    <a href="#">1688</a>
+                    <b>|</b>
+                    <a href="#">阿里妈妈</a>
+                    <b>|</b>
+                    <a href="#">阿里旅行 · 去啊</a>
+                    <b>|</b>
+                    <a href="#">阿里云计算</a>
+                    <b>|</b>
+                    <a href="#">YunOS</a>
+                    <b>|</b>
+                    <a href="#">阿里通信</a>
+                    <b>|</b>
+                    <a href="#">一淘</a>
+                    <b>|</b>
+                    <a href="#">万网</a>
+                    <b>|</b>
+                    <a href="#">高德</a>
+                    <b>|</b>
+                    <a href="#">UC</a>
+                    <b>|</b>
+                    <a href="#">友盟</a>
+                    <br>
+                    <a href="#">虾米</a>
+                    <b>|</b>
+                    <a href="#">天天动听</a>
+                    <b>|</b>
+                    <a href="#">来往</a>
+                    <b>|</b>
+                    <a href="#">钉钉</a>
+                    <b>|</b>
+                    <a href="#">支付宝</a>
+                </p>
+            </div>
+            <div class="footer-bd">
+                <p>
+                    <a href="#">关于淘宝</a>
+                    <a href="#">合作伙伴</a>
+                    <a href="#">营销中心</a>
+                    <a href="#">廉正举报</a>
+                    <a href="#">联系客服</a>
+                    <a href="#">开放平台</a>
+                    <a href="#">诚征英才</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">网站地图</a>
+                    <a href="#">法律声明</a>
+                    <em>© 2003-2016 Taobao.com 版权所有</em>
+                </p>
+                <p>
+                    <span>网络文化经营许可证：<a href="#">浙网文[2013]0268-027号</a></span>
+                    <b>|</b>
+                    <span data-spm-protocol="i">增值电信业务经营许可证：<a href="#">浙B2-20080224-1</a></span>
+                    <b>|</b>
+                    <span>信息网络传播视听节目许可证：1109364号</span>
+                    <b>|</b>
+                    <span> 互联网违法和不良信息举报电话:0571-81683755 blxx@list.alibaba-inc.com </span>
+                </p>
+            </div>
+            <div class="footer-ft">
+
+                <a href="#" class="mod ">
+                    <img width="36" alt="杭州网警" height="36" src="images/plice.gif">
+                </a>
+                <a href="#" class="mod mod-a">
+                </a>
+                <a href="#" class="mod mod-b">
+                </a>
+                <a href="#" class="mod mod-c">
+                </a>
+                <a href="#" class="mod mod-d">
+                </a>
+                <a href="#" class="mod mod-e">
+                </a>
+                <a href="#" class="mod mod-f">
+                </a>
+                <a href="#" class="mod mod-h">
+                </a>
+                <a href="#" class="mod mod-g">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        $(document).ready(function(){
+
+            //tab 切换
+            $("#J_TabBar li").click(function(){
+                $("#J_MainWrap").children("div").hide();
+                $("#J_" + $(this).attr("id")).show();
+                $("#J_TabBar li.selected").removeClass("selected");
+                $(this).addClass("selected");
+            });
+
+            $(".select-size li").click(function(){
+                $(".select-size").find(".tb-selected").removeClass("tb-selected");
+                $(this).addClass("tb-selected");
+            });
+        });
+    </script>
+</body>
+</html>

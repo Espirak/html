@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宝蜂官网</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/layer.js"></script>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="#"><img src="images/logo.png" alt="logo"></a>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="block">
+                <div class="video">
+                    <div class="play">
+                        <img src="images/play.png" alt="play">
+                        <div id="video" style="display: none">
+                            <video controls="" autoplay="false" name="media">
+                                <source src="http://vodcdn.video.taobao.com/oss/ali-video/4effb630686a4a7caf01c33b95c856ef/1461726179/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="down">
+                    <h1>保蜂，让签单更简单！</h1>
+                    <p>创新的保险营销模式，让您获客更快、成单更高！</p>
+                    <div class="btn_down">
+                        <button><img src="images/iphone.png" alt="iphone" style="margin-right: 30px;">iPhone版下载</button>
+                        <button><img src="images/android1.png" alt="android">Android版下载</button>
+                    </div>
+
+                    <div class="qrcode">
+                        <img src="images/qrcode.jpg" alt="qrcode" />
+                        <p>扫一扫下载APP</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block1">
+                <div class="left">
+                    <div class="num1">
+                        <h1>免费开店，好礼任性抽！</h1>
+                        <p>不花钱就能拥有一家属于自己的保险微店，</p>
+                        <p>还能抽取大礼！</p>
+                        <div class="gift_bg"></div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <img src="images/img2.png" alt="img2">
+                </div>
+            </div>
+
+            <div class="block2">
+
+                <div class="left">
+                    <img src="images/img3.png" alt="img3">
+                </div>
+
+                <div class="right">
+                    <div class="num1">
+                        <h1>产品、资讯样样有！</h1>
+                        <p>保险公司产品内容全面丰富，可分享到朋友</p>
+                        <p>圈或朋友，帮您轻松展业！</p>
+                        <div class="gift_bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block3">
+                <div class="left">
+                    <div class="num1">
+                        <h1>执业认证，客户信任！</h1>
+                        <p>个人执业资格认证，通过保监会官方认证</p>
+                        <p>后，给您展业加分，客户更信任您！</p>
+                        <div class="gift_bg"></div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <img src="images/img4.png" alt="img4">
+                </div>
+            </div>
+
+            <div class="block4">
+
+                <div class="left">
+                    <img src="images/img5.png" alt="img3">
+                </div>
+
+                <div class="right">
+                    <div class="num1">
+                        <h1>识别谁来买你的保险！</h1>
+                        <p>微店让您掌握客户的行为轨迹，更有针对性</p>
+                        <p>展业，成单率大大提升！</p>
+                        <div class="gift_bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot">
+            <div class="qrcode">
+                <img src="images/qrcode.jpg" alt="qrcode">
+                <p>扫码关注</p>
+                <p>保蜂微信公众号</p>
+            </div>
+
+            <div class="line">
+
+            </div>
+
+            <div class="info">
+                <h1>联系我们</h1>
+                <h1 class="tel">021-62401258</h1>
+                <p>周一至周五（9:30-18:30）</p>
+                <p>上海市虹口区欧阳路196号法兰桥创意园区10号楼308室</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copy">
+        <p>上海涟拓网络信息技术有限公司版权所有 <span><a href="#">沪ICP备11016964号</a></span></p>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("video").trigger("pause");
+        });
+        $(".play img").click(function(){
+            layer.open({
+                type: 1,
+                title: false,
+                closeBtn: 1,    //是否显示关闭按钮
+                area: $(window).width() - 400 + "px",
+                skin: 'layui-layer-nobg', //没有背景色
+                shadeClose: true,   //是否点击弹窗外关闭弹窗
+                content: $("#video")
+            });
+            console.log($(document).width());
+            $("video").trigger("play");
+        });
+    </script>
+</body>
+</html>

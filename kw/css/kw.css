@@ -1,0 +1,330 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 504px;
+    overflow: hidden;
+    margin-top: 82px;
+    background-repeat: no-repeat;
+    background-position: left 82px;
+    background-attachment: fixed;
+}
+
+.banner .bannerBg {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.banner .bannerInfo {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 220px;
+    margin-top: -110px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.banner .bannerInfo .title {
+    font-family: 'MyriadPro-Bold_0';
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.banner .bannerInfo .titleCh {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    margin-left: -415px;
+    width: 830px;
+    border: 3px solid #fff;
+    padding: 8px 24px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+.banner .bannerInfo .titleCh p{
+    line-height: 48px;
+}
+div.line{
+    clear: both;
+    border-bottom: 1px solid #e5e5e5;
+}
+div#brand{
+    width: 1100px;
+    height: 585px;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+}
+div#brand h1{
+    font-size: 47px;
+    margin: 0;
+}
+div#brand div.info{
+    margin-top: 25px;
+}
+div#brand div.info p{
+    color: #444444;
+    font-size: 16px;
+    line-height: 30px;
+}
+div#video{
+    width: 100%;
+    height: 1010px;
+    position: relative;
+    background: url("../images/video_bg.jpg");
+}
+div#video div.video{
+    width: 1000px;
+    height: 630px;
+    position: absolute;
+    background: black;
+    top: 50%;
+    left: 50%;
+    margin-top: -315px;
+    margin-left: -500px;
+}
+div#video div.video div.play{
+    width: 111px;
+    height: 111px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -55px;
+}
+div#tree{
+    width: 1160px;
+    height: 905px;
+    margin: 0 auto;
+}
+div#tree div.left{
+    width: 470px;
+    float: left;
+    padding-top: 250px;
+}
+div#tree div.right{
+    padding-left: 10px;
+    width: 535px;
+    float: right;
+    padding-top: 360px;
+}
+div#tree div.right h1{
+    color: #272228;
+    font-size: 39px;
+    line-height: 52px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+div#tree div.right div.red_line{
+    width: 520px;
+    margin: 20px 0;
+    border: 2px solid #d41400;
+}
+div#tree div.right p{
+    color: #444444;
+    font-size: 16px;
+    line-height: 26px;
+}
+div#our_team{
+    width: 1128px;
+    height: 970px;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+div#our_team h1{
+    font-size: 47px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+    text-align: center;
+}
+div#our_team div.test{
+    width: 100px;
+    height: 100px;
+    box-shadow:-5px 0 10px #dadada, /*左边阴影*/
+    8px 0 10px #b5b5b5, /*右边阴影*/
+    0 -5px 10px #dadada, /*顶部阴影*/
+    0 8px 10px #b5b5b5; /*底边阴影*/
+}
+div#our_team div.our_team{
+    width: 100%;
+    height: 464px;
+    margin-top: 160px;
+    /*background: url("../images/team_list_bg.jpg") no-repeat center;*/
+}
+div#our_team div.our_team ul li{
+    width: 90px;
+    height: 400px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+    box-shadow:0px 0 0px #dadada, /*左边阴影*/
+    8px 0 10px #b5b5b5, /*右边阴影*/
+    0 -5px 10px #dadada, /*顶部阴影*/
+    0 8px 10px #b5b5b5; /*底边阴影*/
+}
+div#our_team div.our_team ul li:first-child{
+    width: 485px;
+}
+div#our_team div.our_team ul li img{
+    float: left;
+}
+div#our_team div.our_team ul li div.info{
+    float: left;
+    margin-left: 30px;
+    padding-top: 70px;
+}
+div#our_team div.our_team ul li div.info h1{
+    font-size: 24px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+    font-weight: bolder;
+    text-align: left;
+    margin: 0;
+    line-height: 28px;
+}
+div#our_team div.our_team ul li div.info p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+    line-height: 20px;
+}
+div#our_team div.our_team ul li div.name{
+    width: 115px;
+    height: 60px;
+    background: #4c4c4c;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div#our_team div.our_team ul li div.name h1{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+}
+div#our_team div.our_team ul li div.name p{
+    color: white;
+    font-size: 14px;
+}
+div#team{
+    width: 1160px;
+    height: 1245px;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+
+}
+div#team div.team{
+    width: 1093px;
+    height: 724px;
+    margin: 120px auto 0;
+    background: url("../images/team_bg.jpg");
+}
+div#team h1{
+    font-size: 47px;
+}
+div#team  p.info{
+    font-size: 16px;
+    color: #444444;
+    line-height: 26px;
+}
+div#ghost{
+    width: 100%;
+    height: 663px;
+    background: #d82a17;
+}
+div#ghost div.ghost{
+    width: 1100px;
+    padding-top: 160px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+div#ghost div.ghost h1{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#ghost div.ghost h2{
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#ghost div.ghost h3{
+    font-size: 60px;
+    margin: 0;
+    line-height: 75px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#world{
+    width: 1160px;
+    height: 1070px;
+    margin: 0 auto;
+    padding-top: 215px;
+}
+div#world h1{
+    margin: 0;
+    font-size: 47px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+div#world h2{
+    color: #444444;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+div#world div.world{
+    width: 100%;
+    margin-top: 70px;
+}
+div#world div.world>div{
+    width: 425px;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border: 2px solid #4a4a4a;
+}
+div#world div.world div.red_line{
+    width: 44px;
+    height: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background: #d90000;
+}
+div#world div.world div h3{
+    margin: 0;
+    font-size: 35px;
+}
+div#world div.world div p{
+    height: 36px;
+    font-size: 20px;
+    line-height: 36px;
+}
+div#world div.world div.left{
+    float: left;
+}
+div#world div.world div.left div.top,div#world div.world div.left div.bottom{
+    margin-top: 80px;
+}
+div#world div.world div.right{
+    float: right;
+}
+
+div#world div.world div.right div.top,div#world div.world div.right div.middle,div#world div.world div.right div.bottom{
+    margin-top: 55px;
+}

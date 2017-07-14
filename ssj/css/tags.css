@@ -1,0 +1,106 @@
+div#content h3.title{
+    color: #444444;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+div#content h3.title:before{
+    width: 500px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    background: #e6e6e6;
+}
+div#content h3.title:after{
+    width: 500px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #e6e6e6;
+}
+div#content div.likes{
+    padding-bottom: 33px;
+}
+div#content div.likes h3.title{
+    margin: 45px 0 30px;
+}
+div#content div.likes ul{
+    border: 1px solid #e6e6e6;
+}
+div#content div.likes ul li{
+    float: left;
+    width: 203px;
+    height: 100px;
+    color: #777777;
+    font-size: 21px;
+    list-style: none;
+    line-height: 100px;
+    text-align: center;
+    background: #f7eeee;
+}
+div#content div.likes ul li.normal{
+    background: none;
+}
+div#content div#news{
+    clear: both;
+    height: 1175px;
+    background: #faf3f3;
+}
+div#content div#news div.news{
+    padding-top: 50px;
+}
+div#content div#news h3.title{
+    margin-bottom: 35px;
+}
+div#content div#news div.tag-group{
+    margin-bottom: 45px;
+}
+div#content div#news div.tag-group h5{
+    height: 32px;
+    line-height: 32px;
+    color: #333333;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+}
+div#content div#news div.tag-group h5:before{
+    width: 77px;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+    content: "";
+    background: #9a9a9a;
+}
+div#content div.tag-group ul{
+    padding-left: 5px;
+}
+div#content div.tag-group ul li{
+    height: 30px;
+    margin-top: 16px;
+    list-style: none;
+}
+div#content  div.tag-group ul li p{
+    float: left;
+    font-size: 16px;
+    padding: 7px 12px;
+    margin-right: 24px;
+    border-radius: 7px;
+    border: 1px solid #dadada;
+}
+div#content div.tag-group ul li p:last-child{
+    float: right;
+    margin-right: 0;
+}
+div#content  div.tag-group ul li p a{
+    color: #555555;
+}
+div#content div.other{
+    height: 300px;
+}
+div#content div.other h3.title{
+    margin: 20px 0;
+}

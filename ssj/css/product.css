@@ -1,0 +1,317 @@
+div#content{
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#content div.param h2{
+    height: 40px;
+    color: #444444;
+    padding: 5px 10px;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e6e6;
+}
+div#content div.param h2 a{
+    float: right;
+    width: 120px;
+    height: 42px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: normal;
+    background: #ff8b38;
+}
+div#content h3.title{
+    color: #444444;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+div#content h3.title:before{
+    width: 500px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    background: #e6e6e6;
+}
+div#content h3.title:after{
+    width: 500px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #e6e6e6;
+}
+div#content div.param h3.title{
+    margin: 50px 0;
+}
+div#content div.param table{
+    width: 100%;
+    margin-bottom: 60px;
+    border-collapse: collapse;
+    border: 1px solid #e6e6e6;
+}
+div#content div.param table tr{
+    height: 50px;
+    color: #777777;
+    text-align: center;
+}
+div#content div.param table tr.tr1{
+    background: #f3f3f8;
+}
+div#content div.param table tr td{
+    border-right: 1px solid #e6e6e6;
+}
+div#content div.param table tr td:last-child{
+    border-right: none
+}
+div#content div#des{
+    height: 475px;
+    background: #f5f5f5;
+}
+div#content div#des div.des{
+    padding-top: 30px;
+}
+div#content div#des div.des h3.title{
+    margin-bottom: 30px;
+}
+div#content div#des div.des div.content{}
+div#content div#des div.des div.content div.left{
+    float: left;
+    width: 430px;
+}
+div#content div#des div.des div.content div.left h4{
+    height: 28px;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 115px;
+    position: relative;
+    margin-bottom: 30px;
+}
+div#content div#des div.des div.content div.left h4:before{
+    width: 64px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ff8b38;
+}
+div#content div#des div.des div.content div.left p{
+    color: #86878b;
+    font-size: 12px;
+    line-height: 24px;
+}
+div#content div#des div.des div.content div.right{
+    float: right;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid white;
+}
+div#content div#des div.des div.content div.right img{
+    margin-top: 80px;
+}
+div#content div.block1{
+    height: 475px;
+}
+div#content div.block1 div.content{
+    padding-top: 60px;
+}
+div#content div.block1 div.content div.left{
+    float: left;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+div#content div.block1 div.content div.left img{
+    margin-top: 80px;
+}
+div#content div.block1 div.content div.right{
+    float: right;
+    width: 600px;
+}
+div#content div.block1 div.content div.right h4{
+    height: 28px;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 90px;
+    position: relative;
+    margin-bottom: 30px;
+}
+div#content div.block1 div.content div.right h4:before{
+    width: 64px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ff8b38;
+}
+div#content div.block1 div.content div.right p{
+    color: #86878b;
+    font-size: 12px;
+    line-height: 24px;
+}
+div#content div.block2{
+    height: 420px;
+    background: #f5f5f5;
+}
+div#content div.block2 div.content{
+    padding-top: 30px;
+}
+div#content div.block2 div.content div.left{
+    float: left;
+    width: 530px;
+    height: 350px;
+    padding-left: 30px;
+}
+div#content div.block2 div.content div.right{
+    float: right;
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid white;
+}
+div#content div.block2 div.content div.right img{
+    margin-top: 90px;
+}
+div#content div.block2 div.content div.left h4{
+    height: 28px;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 90px;
+    position: relative;
+    margin-bottom: 30px;
+}
+div#content div.block2 div.content div.left h4:before{
+    width: 64px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ff8b38;
+}
+div#content div.block2 div.content div.left p{
+    color: #86878b;
+    font-size: 12px;
+    line-height: 24px;
+}
+div#content div.product{
+    /*padding-top: 35px;*/
+}
+div#content div.product h3.title{
+    margin: 35px 0;
+}
+div#content div.product ul{
+    border: 1px solid #f7f0f0;
+}
+div#content div.product ul li{
+    float: left;
+    width: 202px;
+    list-style: none;
+    padding-top: 15px;
+    text-align: center;
+    border-right: 1px solid #f7f0f0;
+}
+div#content div.product ul li:last-child{
+    border-right: none;
+}
+div#content div.product ul li p{
+    font-size: 14px;
+    line-height: 36px;
+}
+div#content div.product ul li p a{
+    color: #333333;
+}
+div#content div.raiders h3.title{
+    margin: 70px 0 40px;
+}
+div#content div.raiders ul{
+    border-top: 1px solid #f7f0f0;
+    border-left: 1px solid #f7f0f0;
+}
+div#content div.raiders ul li{
+    float: left;
+    width: 588px;
+    padding: 10px;
+    list-style: none;
+    border-right: 1px solid #f7f0f0;
+    border-bottom: 1px solid #f7f0f0;
+}
+div#content div.raiders ul li img{
+    float: left;
+    margin-right: 15px;
+}
+div#content div.raiders ul li h3{
+    font-size: 14px;
+    line-height: 42px;
+}
+div#content div.raiders ul li h3 a{
+    color: black;
+}
+div#content div.raiders ul li p{
+    font-size: 12px;
+    line-height: 24px;
+}
+div#content div.contact h3.title{
+    margin: 75px 0 50px;
+}
+div#content div.contact div.form{
+    height: 190px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #f7f0f0;
+}
+div#content div.contact div.form p.title1{
+    font-size: 20px;
+    line-height: 42px;
+    padding-left: 350px;
+}
+div#content div.contact div.form p.title2{
+    font-size: 20px;
+    padding-left: 540px;
+}
+div#content div.contact div.form ul li{
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 32px;
+}
+div#content div.contact div.form ul li input{
+    width: 235px;
+    height: 46px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 46px;
+    padding-left: 25px;
+    background: #efefef;
+}
+div#content div.contact div.form ul li button{
+    width: 260px;
+    height: 46px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #f7b551;
+    -webkit-box-shadow:  0px 5px 5px #d7d7d7;
+       -moz-box-shadow:  0px 5px 5px #d7d7d7;
+         -o-box-shadow:  0px 5px 5px #d7d7d7;
+            box-shadow:  0px 5px 5px #d7d7d7;
+}
+div#content div.contact div.form ul li input::-webkit-input-placeholder{
+    color: #333333;
+}
+div#content div.contact div.form ul li p{
+    color: #333333;
+    font-size: 14px;
+    margin-top: 12px;
+}

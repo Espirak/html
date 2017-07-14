@@ -1,0 +1,49 @@
+div#content{
+	height: 2339px;
+	background: url(../images/knowledge1_content_bg.jpg);
+}
+div#content div.content{
+	height: 2334px;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 140px;
+	text-align: center;
+	position: relative;
+	background: url(../images/about_content_text_bg.jpg);
+}
+div#content div.content h1{
+	color: #c00604;
+	font-size: 18px;
+	padding-top: 60px;
+	text-align: center;
+}
+div#content div.content h3.date{
+	color: #c00604;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+div#content div.content .red{
+	color: #e60012;
+}
+div#content div.content p{
+	line-height: 32px;
+}
+div#content div.content div.text-group{
+	margin-bottom: 30px;
+}
+div#content div.content div.tool{
+	position: absolute;
+	right: 25px;
+}
+div#content div.content div.tool a{
+	width: 57px;
+	height: 24px;
+	outline: none;
+	color: #b7b2a4;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	background: url(../images/about_content_btn_bg.png);
+}

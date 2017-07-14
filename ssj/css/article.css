@@ -1,0 +1,302 @@
+div#banner{
+    width: 1220px;
+    height: 385px;
+    margin: 20px auto;
+}
+div#banner div.banner{
+    float: left;
+    width: 590px;
+    height: 385px;
+    margin-right: 20px;
+    position: relative;
+}
+div#banner div.banner a.prev{
+    position: absolute;
+    top: 140px;
+}
+div#banner div.banner a.next{
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+div#banner div.banner ul li{
+    list-style: none;
+}
+div#banner div.banner div.hd{
+    position: absolute;
+    top: 20px;
+    right: 8px;
+    z-index: 1;
+}
+div#banner div.banner div.hd ul li{
+    float: left;
+    width: 23px;
+    height: 23px;
+    color: white;
+    cursor: pointer;
+    line-height: 23px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+div#banner div.banner div.hd ul li.on{
+    color: #555555;
+    background: white;
+}
+div#banner div.banner div.bd ul li{
+    overflow: hidden;
+}
+div#banner div.banner div.bd ul li img{
+    width: 100%;
+}
+div#banner div.banner div.bd ul li p{
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding-left: 10px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    background: url("../images/icon/banner_title_bg.png");
+}
+div#banner div.other{
+
+}
+div#banner div.other ul li{
+    width: 295px;
+    height: 185px;
+    float: left;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+div#banner div.other ul li.inline_last{
+    margin-right: 0;
+}
+div#banner div.other ul li p{
+    width: 100%;
+    height: 30px;
+    color: white;
+    padding-left: 10px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    background: url("../images/icon/banner_title_bg.png") bottom;
+}
+div#content{
+    width: 1220px;
+    margin: 20px auto 0;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#content div.left{
+    float: left;
+    width: 830px;
+}
+div#content div.right{
+    float: right;
+    width: 360px;
+}
+div#content div.left div.article ul li{
+    height: 148px;
+    padding: 15px;
+    list-style: none;
+    border: 1px solid #e6e6e6;
+}
+div#content div.left div.article ul li:hover{
+    border: 1px solid #6ebade;
+}
+div#content div.left div.article ul li img{
+    float: left;
+    margin-right: 15px;
+}
+div#content div.left div.article ul li h3{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+div#content div.left div.article ul li h3 a{
+    color: black;
+}
+div#content div.left div.article ul li h3 span{
+    float: left;
+    width: 66px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    background: url("../images/icon/article_title.png") no-repeat;
+}
+div#content div.left div.article ul li p.des{
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+}
+div#content div.left div.article ul li p.tool{
+    color: #666666;
+    font-size: 12px;
+    margin-top: 28px;
+}
+div#content div.left div.article ul li p.tool span.right{
+    float: right;
+}
+div#content div.right h3.title{
+    height: 48px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 48px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+div#content div.right h3.title a.more{
+    color: #666666;
+    font-size: 12px;
+    float: right;
+    margin-right: 20px;
+}
+div#content div.right div.goods{
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+div#content div.right div.goods ul li{
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+div#content div.right div.goods ul li:last-child{
+    border: none;
+}
+div#content div.right div.goods ul li img.goods{
+    float: left;
+    margin-right: 10px;
+}
+div#content div.right div.goods ul li p{
+    line-height: 22px;
+}
+div#content div.right div.goods ul li p a{
+    color: black;
+}
+div#content div.right div.goods ul li p.title{
+    margin-bottom: 25px;
+}
+div#content div.right div.goods ul li p span.heart{
+    float: right;
+}
+div#content div.right div.goods ul li p span.heart img{
+    margin-right: 5px;
+}
+div#content div.right div.goods ul li p span.price{
+    color: #e60013;
+    font-size: 18px;
+}
+div#content div.right div.cases{
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+div#content div.right div.cases ul li{
+    float: left;
+    width: 160px;
+    margin-left: 13px;
+    margin-top: 15px;
+    list-style: none;
+}
+div#content div.right div.cases ul li p{
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+div#content div.right div.cases ul li p a{
+    color: #666666;
+}
+div#content div.right div.topic{
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+div#content div.right div.topic ul li{
+    height: 25px;
+    list-style: none;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+div#content div.right div.topic ul li p{
+    float: left;
+    height: 25px;
+    padding: 0 6px;
+    font-size: 12px;
+    margin-right: 12px;
+    line-height: 25px;
+    border-radius: 3px;
+    border: 1px solid #6ebade;
+}
+div#content div.right div.topic ul li p a{
+    color: #6ebade;
+}
+div#content div.right div.topic ul li p:last-child{
+    float: right;
+    margin-right: 12px;
+}
+div#content div.right div.topic ul li.li2 p{
+    padding: 0 5px;
+    margin-right: 13px;
+}
+div#content div.right div.topic ul li p.on{
+    background: #6ebade;
+}
+div#content div.right div.topic ul li p.on a{
+    color: white;
+}
+div#content div.right div.des{
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+div#content div.right div.des div.left{
+    float: left;
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div#content div.right div.des div.right{
+    float: left;
+    width: 75px;
+    margin-top: 10px;
+}
+div#content div.right div.des div.left div.top{
+    height: 120px;
+    margin-bottom: 10px;
+}
+div#content div.right div.des div.left div.top div{
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    background: #e6e6e6;
+}
+div#content div.right div.des div.left div.bottom{
+    width: 250px;
+    height: 120px;
+    background: #e6e6e6;
+}
+div#content div.right div.des div.right div{
+    width: 75px;
+    height: 120px;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+}
+div#content div.right div.follow{
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+div#content div.right div.follow h3{
+    line-height: 46px;
+}
+div#content div.right div.follow p{
+    line-height: 32px;
+}

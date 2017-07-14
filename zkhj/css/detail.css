@@ -1,0 +1,154 @@
+div.ad img{
+    width: 100%;
+}
+div.ad div.col{
+    padding: 0;
+}
+div.position{
+    height: 66px;
+    background: white;
+}
+div.position .breadcrumb{
+    padding-top: 26px;
+    margin-bottom: 0;
+    background: white;
+}
+div.position .breadcrumb>li+li:before{
+    content: ">";
+}
+div.position .breadcrumb li a{
+    color: #636363;
+}
+div.position .breadcrumb li.active a{
+    color: #22a0f5;
+}
+div.content{
+    background: white;
+}
+div.content div.left{
+    padding-top: 15px;
+    border-top: 1px solid #7cc635;
+}
+div.content div.right{
+    border-top: 1px solid #4db2f6;
+    border-left: 1px solid #dff1fe;
+}
+div.content div.left ul li{
+    border: none;
+    /*height: 50px;*/
+    font-size: 16px;
+    padding-left: 25px;
+    background: url("../images/icon/list_icon.png") no-repeat left 15px;
+}
+div.content div.left .left_img{
+    text-align: center;
+}
+div.content div.left ul li a{
+    text-decoration: none;
+}
+div.content div.left ul li.active{
+    background: url("../images/icon/list_icon_hover.png") no-repeat left 15px;
+}
+div.content div.left ul li.open{
+    background: url("../images/icon/list_icon_open.png") no-repeat left 15px;
+}
+div.content div.left ul li.open > a{
+    color: #4db2f6;
+    border-bottom: 1px solid #63bbf7;
+}
+div.content div.left ul li .panel-collapse p{
+    padding-top: 15px;
+}
+div.content div.left ul li .panel-collapse p a{
+    color: #ababab;
+}
+div.content div.left ul li .panel-collapse p.on a{
+    color: #4db2f6;
+}
+div.content div.left ul li a{
+    color: #636363;
+    padding: 3px 0;
+}
+div.content div.left ul li.active a{
+    color: #4db2f6;
+    border-bottom: 1px solid #63bbf7;
+}
+div.content div.right ul li{
+    border: none;
+    padding: 28px 0 10px 30px;
+    background: url("../images/icon/article_icon.png") no-repeat left 28px;
+}
+div.content div.right img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+div.content div.right p{
+    color: #4b4b4b;
+    line-height: 30px;
+}
+div.content div.right h2.enTitle{
+    color: #4b4b4b;
+    font-size: 32px;
+}
+div.content div.right h2.enTitle p{
+    font-size: 18px;
+}
+div.content div.right h2.title{
+    color: #4b4b4b;
+    font-size: 22px;
+}
+div.content div.right p.date{
+    color: #999999;
+    font-size: 14px;
+}
+div.content div.right h3.title{
+    color: #4b4b4b;
+    margin: 30px 0;
+    font-size: 18px;
+    padding-left: 25px;
+    background: url("../images/icon/article_icon.png") no-repeat;
+}
+div.content div.right div.areas{
+    margin: 20px 0;
+}
+div.content div.right div.areas span.num{
+    float: left;
+    color: #cdcdcd;
+    font-size: 60px;
+    margin-right: 15px;
+    font-family: "arial";
+}
+div.content div.right div.areas h3{
+    margin: 0;
+    padding-top: 15px;
+    color: #4b4b4b;
+    font-size: 22px;
+}
+div.content div.right div.areas h2{
+    margin: 0;
+    color: #cdcdcd;
+    font-size: 30px;
+}
+div.content div.right div.pages{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+div.content div.right div.pages div{
+    float: left;
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+}
+div.content div.right div.pages div.next{
+    border-left: none;
+}
+div.content div.right div.pages div.prev a{
+    color: #6f6f6f;
+}
+div.content div.right div.pages div.next a{
+    color: #e2e2e2;
+}

@@ -1,0 +1,53 @@
+div#content{
+	height: 1067px;
+	background: url(../images/about_content_bg.jpg);
+}
+div#content div.content{
+	height: 1062px;
+	font-size: 14px;
+	line-height: 32px;
+	position: relative;
+	background: url(../images/contact_map_bg.jpg) no-repeat;
+	background-size: 100%;
+}
+
+div#content div.content div.map{
+	width: 100%;
+	float: left;
+	margin-top: 535px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+div#content div.content div.info{
+	position: absolute;
+	top: 220px;
+	left: 375px;
+}
+div#content div.content div.info h2{
+	color: #e60012;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+div#content div.content div.info p{
+	color: #e60012;
+	font-size: 14px;
+	line-height: 36px;
+}
+div#content div.content div.info p img{
+	vertical-align: middle;
+}
+div#content div.content div.tool{
+	float: right;
+	margin-right: 140px;
+}
+div#content div.content div.tool a{
+	width: 57px;
+	height: 24px;
+	outline: none;
+	color: #b7b2a4;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	background: url(../images/about_content_btn_bg.png);
+}

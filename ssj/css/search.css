@@ -1,0 +1,58 @@
+div#content div.result{
+    height: 72px;
+}
+div#content div.result h2{
+    font-size: 21px;
+    margin-top: 12px;
+    padding-left: 5px;
+}
+div#content div.result h3{
+    height: 26px;
+    margin-top: 12px;
+    border-bottom: 1px solid #e6e6e6;
+}
+div#content div.result h3 p{
+    float: left;
+    height: 23px;
+    color: #666666;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 25px;
+    border-bottom: 3px solid #e6e6e6;
+}
+div#content div.result_list ul li{
+    float: left;
+    width: 380px;
+    margin-top: 30px;
+    margin-right: 35px;
+    list-style: none;
+}
+div#content div.result_list ul li.inline_last{
+    margin-right: 0%;
+}
+div#content div.result_list ul li div.content{
+    padding: 0 8px;
+}
+div#content div.result_list ul li h4{
+    font-size: 14px;
+}
+div#content div.result_list ul li h3{
+    font-size: 18px;
+    line-height: 26px;
+}
+div#content div.result_list ul li img{
+    margin: 10px 0;
+}
+div#content div.result_list ul li p.des{
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+}
+div#content div.result_list ul li p.tool{
+    color: #777777;
+    font-size: 12px;
+    line-height: 24px;
+}
+div#content div.result_list ul li p.tool span.tag span a{
+    color: #6868f4;
+}

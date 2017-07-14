@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.w1220{
+    clear: both;
+    width: 1220px;
+    margin: 0 auto;
+}
+div#header{
+    width: 100%;
+    height: 226px;
+}
+div#top_nav{
+    width: 100%;
+    height: 28px;
+    color: #555555;
+    font-size: 12px;
+    line-height: 28px;
+    background: #f7eded;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#top_nav div.top_nav{
+
+}
+div#top_nav div.top_nav p.welcome{
+    float: left;
+}
+div#top_nav div.top_nav p.tel{
+    float: right;
+}
+div#top_nav div.top_nav p.tel a{
+    color: #555555;
+}
+div#logo{
+    height: 124px;
+}
+div#logo div.logo{
+    float: left;
+    width: 360px;
+    height: 108px;
+    margin: 8px 0;
+    margin-left: 5px;
+    border: 1px solid #e6e6e6;
+}
+div#logo div.search{
+    float: right;
+    width: 400px;
+    height: 45px;
+    position: relative;
+    top: 41px;
+}
+div#logo div.search img{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    z-index: 1;
+}
+div#logo div.search input{
+    width: 298px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    padding-left: 32px;
+    border: 2px solid #5fb800;
+    border-radius: 5px 0 0 5px;
+}
+div#logo div.search button{
+    width: 102px;
+    height: 45px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    cursor: pointer;
+    background: #5fb800;
+    border-radius: 0 5px 5px 0;
+}
+div#nav{
+    height: 43px;
+    border-bottom: 3px solid #5fb800;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#nav div.nav{
+    height: 41px;
+}
+div#nav div.nav ul{
+    padding-left: 5px;
+}
+div#nav div.nav ul li{
+    float: left;
+    height: 41px;
+    padding: 0 33px;
+    list-style: none;
+    line-height: 41px;
+    position: relative;
+}
+div#nav div.nav ul li:before{
+    width: 1px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    z-index: 1;
+    background: #444444;
+}
+div#nav div.nav ul li:last-child:after{
+    width: 1px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    z-index: 1;
+    background: #444444;
+}
+div#nav div.nav ul li.on{
+    height: 41px;
+    background: #5fb800;
+}
+div#nav div.nav ul li.on:after{
+    width: 17px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -8px;
+    z-index: 1;
+    background: white;
+}
+div#nav div.nav ul li a{
+    color: black;
+}
+div#nav div.nav ul li.on a{
+    color: white;
+}
+div#position{
+    width: 100%;
+    height: 30px;
+    color: #555555;
+    font-size: 12px;
+    line-height: 30px;
+    background: #f7eded;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#position div.position{
+    padding-left: 5px;
+}
+div#position div.position a{
+    color: #555555;
+}
+div.pages{
+    position: relative;
+    height: 200px;
+}
+div.pages ul{
+    /*width: 450px;*/
+    position: absolute;
+    left: 50%;
+    top: 66px;
+    margin-left: -225px;
+}
+div.pages ul li{
+    float: left;
+    width: 43px;
+    height: 40px;
+    margin: 0 3px;
+    cursor: pointer;
+    list-style: none;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 5px;
+    background: #f8f8f8;
+    border: 1px solid #e5e5e5;
+}
+div.pages ul li a{
+    display: block;
+    color: #5a5a5a;
+}
+div.pages ul li:nth-last-of-type(3) a{
+    color: #44b5df;
+}
+div.pages ul li.home{
+    width: 95px;
+    height: 42px;
+    background: #e2e2e2;
+}
+div.pages ul li.on{
+    background: #44b5df;
+    border: 1px solid #459ebf;
+}
+div.pages ul li.on a{
+    color: white;
+}
+div.pages ul li.home a{
+    color: #b8b8b8;
+}
+div.pages ul li.next{
+    width: 93px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+}
+div#footer{
+    clear: both;
+    height: 478px;
+    border-top: 1px solid #e6e6e6;
+}
+div#footer div.footer{
+    width: 1280px;
+    height: 478px;
+    margin: 0 auto;
+}
+div#footer div.footer div.service{
+    height: 103px;
+    padding-left: 50px;
+    padding-top: 47px;
+}
+div#footer div.footer div.service ul li{
+    float: left;
+    width: 200px;
+    list-style: none;
+    margin-left: 30px;
+}
+div#footer div.footer div.service ul li img{
+    float: left;
+    margin-right: 10px;
+}
+div#footer div.footer div.service ul li h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+div#footer div.footer div.service ul li p{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+div#footer div.footer div.foot{
+    height: 157px;
+    padding-top: 13px;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+}
+div#footer div.footer div.foot ul{
+    height: 150px;
+}
+div#footer div.footer div.foot ul li{
+    float: left;
+    width: 155px;
+    height: 150px;
+    list-style: none;
+    padding-left: 60px;
+    border-right: 1px solid #e1e3e4;
+}
+div#footer div.footer div.foot ul li.logo{
+    width: 315px;
+    padding: 0;
+    text-align: center;
+}
+div#footer div.footer div.foot ul li.logo img{
+    margin-top: 30px;
+    border: 1px solid #f5eaea;
+}
+div#footer div.footer div.foot ul li h3{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+div#footer div.footer div.foot ul li p{
+    font-size: 14px;
+    padding-left: 7px;
+    line-height: 24px;
+}
+div#footer div.footer div.foot ul li p a{
+    color: #666666;
+}
+div#footer div.footer div.foot ul li.tel{
+    padding: 0;
+    width: 250px;
+    border-right: none;
+    text-align: center;
+}
+div#footer div.footer div.foot ul li.tel h2{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+div#footer div.footer div.foot ul li.tel p{
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+div#footer div.footer div.foot ul li.tel a{
+    width: 100px;
+    height: 30px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    background: #f8b551;
+}
+div#footer div.footer div.copyright{
+    color: #666666;
+    font-size: 12px;
+    padding-top: 24px;
+    text-align: center;
+}
+div#footer div.footer div.copyright p{
+    line-height: 24px;
+}
+div#footer div.footer div.copyright p img{
+    margin: 5px 9px;
+}

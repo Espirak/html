@@ -1,0 +1,98 @@
+div#tech{
+    width: 100%;
+    height: 1010px;
+    background: url("../images/tech_bg.jpg") no-repeat center;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#tech div.tech{
+    height: 665px;
+    position: relative;
+    top: 160px;
+}
+div#tech div.tech div.left{
+    float: left;
+    width: 300px;
+    height: 665px;
+    margin-right: 5px;
+    background: rgba(255,255,255,.9);
+}
+div#tech div.tech div.right{
+    float: left;
+    width: 855px;
+    height: 625px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background: rgba(255,255,255,.9);
+}
+div#sidebar{
+    width: 249px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div#sidebar div.title{
+    color: white;
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    padding-left: 62px;
+    margin-bottom: 5px;
+    background: url("../images/tech_sidebar_title_bg.png");
+}
+div#sidebar div.title a{
+    color: white;
+}
+div#sidebar div.title1{
+    color: #595656;
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    padding-left: 62px;
+    margin-bottom: 5px;
+    background: url("../images/tech_sidebar_title1_bg.png");
+}
+div#sidebar div.title1 a{
+    color: #595656;
+}
+div#tech div.tech div.right h1{
+    color: #595656;
+    font-size: 18px;
+    font-weight: normal;
+}
+div#tech div.tech div.right p{
+    color: #595656;
+    font-size: 14px;
+    line-height: 30px;
+}
+div#tech div.tech div.right div.content{
+    width: 805px;
+}
+div#tech div.tech div.right div.content img{
+    margin-top: 20px;
+}
+div.address{
+    height: 390px;
+    padding-top: 30px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+}
+div.address div.left{
+    float: left;
+    padding-left: 45px;
+}
+div.address div.right{
+    float: right;
+    padding-right: 20px;
+}
+div.address div.left h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+div.address div.left div.text-group{
+    color: #666465;
+    font-size: 16px;
+    margin-top: 30px;
+}
+div.address div.left div.text-group p{
+    line-height: 26px;
+}

@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #f8f3f0;
+}
+.clear{
+    clear: both;
+}
+div.top_banner{
+    width: 100%;
+    height: 200px;
+    background: url("../images/top_banner.jpg") no-repeat center;
+}
+div#container{
+    width: 1100px;
+    margin: 0 auto;
+}
+div#container div#left{
+    float: left;
+    width: 895px;
+    height: 100%;
+}
+div#container div#right{
+    float: left;
+    width: 205px;
+}
+div#container div#left div.menu{
+    width: 100%;
+    height: 75px;
+}
+div#container div#left div.menu div.left_btn{
+    width: 27px;
+    height: 100%;
+    float: left;
+    background: url("../images/icon/left.jpg") no-repeat center;
+}
+div#container div#left div.menu div.menu_list{
+    float: left;
+    width: 832px;
+    height: 100%;
+    padding-left: 8px;
+}
+div#container div#left div.menu div.menu_list ul{
+
+}
+div#container div#left div.menu div.menu_list ul li{
+    float: left;
+    width: 123px;
+    height: 70px;
+    margin: 0 7px;
+    list-style: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #cac6c4;
+}
+div#container div#left div.menu div.menu_list ul li.red{
+    background: #e5354c;
+}
+div#container div#left div.menu div.menu_list ul li.green{
+    background: #28b779;
+}
+div#container div#left div.menu div.menu_list ul li.yellow{
+    background: #ff9716;
+}
+div#container div#left div.menu div.menu_list ul li.blue{
+    background: #3b9fff;
+}
+div#container div#left div.menu div.menu_list ul li img{
+    /*width: 32px;*/
+    height: 31px;
+}
+div#container div#left div.menu div.menu_list ul li p{
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+div#container div#left div.menu div.menu_list ul li.twoline p{
+    margin-top: 2px;
+}
+div#container div#left div.menu div.right_btn{
+    width: 27px;
+    height: 100%;
+    background: url("../images/icon/right.jpg") no-repeat center;
+    float: right;
+}
+div#container div#left div#chart{
+    width: 883px;
+    margin: 12px;
+    height: 360px;
+}
+div#container div#left div#chart div.left{
+    float: left;
+    width: 43px;
+    height: 100%;
+    text-align: center;
+    background: #4c4743;
+    border: 1px solid #25201c;
+}
+div#container div#left div#chart div.left img{
+    width: 60%;
+}
+div#container div#left div#chart div.left p{
+    color: white;
+    margin-top: 2px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+div#container div#left div#chart div.left div.top{
+    padding-top: 10px;
+    border-bottom: 2px solid #4f4a46;
+}
+div#container div#left div#chart div.left div.bottom{
+    padding-top: 120px;
+}
+div#container div#left div#chart div.right{
+    float: left;
+}
+div#container div#left div#chart div.right div.button ul li{
+    float: left;
+    width: 125px;
+    height: 30px;
+    margin: 12px;
+    font-size: 12px;
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    background: #f8f3f0;
+    border: 1px solid #dedddc;
+}
+div#container div#left div#chart div.right div.button ul li a{
+    color: black;
+}
+div#container div#left div#chart div.right div.button ul li.on{
+    background: #c30d23;
+    border: 1px solid #c8393a;
+}
+div#container div#left div#chart div.right div.button ul li.on a{
+    color: white;
+}
+div#container div#left div#chart div.right div.chart{
+    width: 580px;
+    height: 270px;
+    margin: 25px 0 0 100px;
+}
+div#container div#left div#chart div.right div.chart iframe{
+    width: 100%;
+    height: 100%;
+}
+
+div#container div#left div#event{
+    width: 883px;
+    margin: 12px;
+    height: 250px;
+}
+div#container div#left div#event div.left{
+    float: left;
+    width: 43px;
+    height: 100%;
+    text-align: center;
+    background: #4c4743;
+    border: 1px solid #25201c;
+}
+div#container div#left div#event div.left img{
+    width: 60%;
+}
+div#container div#left div#event div.left p{
+    color: white;
+    margin-top: 2px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+div#container div#left div#event div.left div.top{
+    padding-top: 10px;
+    border-bottom: 2px solid #4f4a46;
+}
+div#container div#left div#event div.left div.bottom{
+    padding-top: 65px;
+}
+div#container div#left div#event div.right{
+    float: left;
+}
+div#container div#left div#event div.right div.button ul li{
+    float: left;
+    width: 125px;
+    height: 30px;
+    margin: 12px;
+    font-size: 12px;
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    background: #f8f3f0;
+    border: 1px solid #dedddc;
+}
+div#container div#left div#event div.right div.button ul li a{
+    color: black;
+}
+div#container div#left div#event div.right div.button ul li span.tips{
+    float: right;
+    width: 16px;
+    height: 16px;
+    color: white;
+    margin-right: 5px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: #f26000;
+    display: inline-block;
+}
+div#container div#left div#event div.right div.button ul li.on{
+    background: #c30d23;
+    border: 1px solid #c8393a;
+}
+div#container div#left div#event div.right div.button ul li.on a{
+    color: white;
+}
+div#container div#left div#event div.right div.event{
+    width: 795px;
+    height: 184px;
+    margin: 12px;
+    border: 1px solid #e9e8e7;
+    border-top: none;
+    border-bottom: none;
+}
+div#container div#left div#event div.right div.event h1{
+    color: white;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 35px;
+    background: #3b9fff;
+    border: 1px solid #1c91fe;
+}
+div#container div#left div#event div.right div.event ul li{
+    height: 35px;
+    font-size: 14px;
+    list-style: none;
+    line-height: 34px;
+    border-bottom: 2px solid #ececec;
+}
+div#container div#left div#event div.right div.event ul li div.title{
+    width: 555px;
+    float: left;
+    height: 100%;
+    padding-left: 35px;
+}
+div#container div#left div#event div.right div.event ul li div.title a{
+    color: black;
+}
+div#container div#left div#event div.right div.event ul li div.ftitle{
+    float: left;
+    width: 160px;
+    height: 100%;
+    text-align: center;
+}
+div#container div#right div.user{
+    width: 193px;
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e6e4e3;
+}
+div#container div#right div.user div.avater{
+    width: 60px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    background: #c7c7c7;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdbebf;
+}
+div#container div#right div.user div.avater img{
+    width: 35px;
+    margin-top: 13px;
+}
+div#container div#right div.user div.username{
+    float: left;
+    padding-left: 3px;
+    padding-top: 25px;
+    margin-left: 0px;
+}
+div#container div#right div.user div.username h3{
+    height: 20px;
+    color: #b8b9b9;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 2px solid #e0dddc;
+}
+div#container div#right div.user div.username p{
+    color: #b8b9b9;
+    font-size: 12px;
+    line-height: 14px;
+}
+div#container div#right div.user a.logout{
+    clear: both;
+    color: white;
+    height: 26px;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 13px;
+    background: #c30d23;
+}
+div#container div#right div.calendar{
+    width: 100%;
+    height: 260px;
+    border-bottom: 1px solid #e6e4e3;
+}
+div#container div#right div.app h1{
+    height: 30px;
+    font-size: 16px;
+    color: #909091;
+    padding: 5px 0;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e5e4;
+}
+div#container div#right div.app h1 img{
+    width: 26px;
+    margin-right: 5px;
+}
+div#container div#right div.app ul li {
+    float: left;
+    width: 90px;
+    height: 75px;
+    padding-top: 15px;
+    list-style: none;
+    margin: 5px;
+    text-align: center;
+}
+div#container div#right div.app ul li img{
+    width: 50px;
+    margin-bottom: 5px;
+}
+div#container div#right div.app ul li a{
+    color: white;
+    display: block;
+    font-size: 12px;
+}
+div#container div#right div.app ul li.first{
+    background: #ffb230;
+    border: 1px solid #ffa508;
+}
+div#container div#right div.app ul li.second{
+    background: #ed6c44;
+    border: 1px solid #eb5526;
+}
+div#container div#right div.app ul li.third{
+    background: #c3a279;
+    border: 1px solid #b38955;
+}
+div#container div#right div.app ul li.fourth{
+    background: #4c4743;
+    border: 1px solid #2f2925;
+}
+div#container div#right div.notice{
+    width: 100%;
+    height: 130px;
+    border: 1px solid #e7e5e4;
+    border-top: none;
+    border-bottom: none;
+    margin: 5px 0 10px;
+}
+div#container div#right div.notice h1{
+    color: white;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    padding-left: 60px;
+    background: #dcdcdc;
+    border-bottom: 1px solid #d9d9da;
+}
+div#container div#right div.notice h1 img{
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+div#container div#right div.notice ul li{
+    height: 25px;
+    list-style: none;
+    line-height: 25px;
+    text-align: center;
+    border-bottom: 2px solid #edeae8;
+}
+div#container div#right div.notice ul li a{
+    color: black;
+    font-size: 12px;
+}
+div#footer{
+    width: 100%;
+    height: 40px;
+    clear: both;
+    margin-top: 10px;
+    background: #4d4d4d;
+    border-top: 1px solid #333334;
+}
+div#footer div.footer{
+    color: white;
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}

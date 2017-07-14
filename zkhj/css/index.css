@@ -1,0 +1,149 @@
+
+div.carousel div.carousel-inner div.carousel-caption{
+
+}
+div.carousel .carousel-control{
+    width: 50px;
+}
+div.carousel div.carousel-inner div.carousel-caption h1{
+    font-size: 110px;
+}
+div.service{
+    color: white;
+    text-align: center;
+}
+div.service img{
+    margin: 20px 0;
+}
+div.service div.blue{
+    background: #22a0f5;
+}
+div.service div.green{
+    background: #7cc635;
+}
+div.service div.purple{
+    background: #8560a8;
+}
+div.tech{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: white;
+}
+div.tech div.info{
+    overflow: hidden;
+}
+div.tech div.info:before{
+    position: absolute;
+    content:"“";
+    left: -30px;
+    color: #dddddd;
+    font-size: 80px;
+}
+div.tech div.info:after{
+    position: absolute;
+    content:"”";
+    top: 75px;
+    right: -30px;
+    color: #dddddd;
+    font-size: 80px;
+}
+div.tech{
+    padding: 60px 30px;
+}
+div.tech div.text{
+    text-align: center;
+}
+div.tech div.text h1{
+    margin: 0;
+    letter-spacing: 5px;
+    line-height: 76px;
+    font-weight: normal;
+}
+div.tech div.text span.blue{
+    color: #22a0f5;
+}
+div.tech div.text span.green{
+    color: #7cc635;
+}
+div.tech div.info{
+    padding: 20px 70px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+}
+div.tech div.info h2{
+    color: #a1a1a1;
+    margin: 0;
+    line-height: 32px;
+    font-size: 20px;
+}
+div.tech div.info h3{
+    color: #656565;
+    margin: 0;
+    line-height: 42px;
+    font-size: 14px;
+}
+div.tech div.info h3 span{
+    font-weight: normal;
+    margin-left: 10px;
+    color: #c8c1c1;
+    font-size: 12px;
+}
+div.tech div.info img{
+    float: left;
+    margin-right: 30px;
+}
+div.des{
+    background: white;
+    text-align: center;
+}
+div.des h2{
+    font-size: 32px;
+}
+div.des h3{
+    font-size: 20px;
+}
+div.des h2,div.des h3{
+    font-weight: normal;
+}
+div.des div.row{
+    color: white;
+    height: 236px;
+    margin-bottom: 3px;
+}
+div.des div.row > div{
+    height: 236px;
+    padding-top: 66px;
+}
+div.des div.more p{
+    font-size: 12px;
+    color: #66bbff;
+    margin-top: 30px;
+}
+div.des div.row div.black{
+    background: black;
+}
+div.des div.row div.orange{
+    background: #db8c01;
+}
+div.des div.row div.green{
+    background: #7cc635;
+}
+div.des div.row div.purple{
+    background: #8560a8;
+}
+div.des div.row div.more{
+    background: url("../images/more_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+div.des div.row div.person{
+    background: url("../images/person_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+div.des div.row div.world{
+    background: url("../images/world_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+div.des div.row div.venue{
+    background: url("../images/venue_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}

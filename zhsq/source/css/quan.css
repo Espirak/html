@@ -1,0 +1,471 @@
+div.tab{
+    height: 1rem;
+    background: white;
+    border-bottom: 1px solid #cccccc;
+}
+
+body{
+    height: 100%;
+    background: white;
+}
+
+div.tab ul li{
+    float: left;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .3rem;
+    /*padding: 0 .33rem;*/
+    width: 19%;
+    text-align: center;
+}
+
+div.tab ul li.active{
+    border-bottom: 2px solid #4fb5e9;
+}
+
+div.tab ul li a{
+    color: black;
+}
+
+div.tab ul li.active a{
+    color: #4fb5e9;
+}
+
+.categoryLiIcon{
+    margin: 0;
+}
+
+.categoryLiIcon li {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    margin-top: .4rem;
+    margin-left: 0;
+}
+
+
+div.content{
+    padding: 0 .3rem;
+}
+
+div.content h1{
+    clear: both;
+    line-height: .8rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+div.content div.left{
+    position: relative;
+    width: 70%;
+    float: left;
+}
+
+div.content div.left img{
+    width: 100%;
+}
+
+div.content div.left img.play{
+    width: 1.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.7rem;
+    margin-top: -.7rem;
+}
+
+div.right{
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+div.content div.right img{
+    width: 85%;
+}
+
+div.content div.right ul li{
+    position: relative;
+    margin-bottom: .1rem;
+}
+
+div.content div.right img.play{
+    width: .7rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -.35rem;
+    margin-top: -.35rem;
+}
+
+div.content div.detail{
+    float: left;
+    clear: both;
+    margin: .3rem 0;
+}
+
+div.content div.detail p{
+    color: #666666;
+    line-height: .4rem;
+}
+
+div.time{
+    padding: 0 .2rem;
+    height: .8rem;
+    border: 1px solid #cccccc;
+    clear: both;
+    border-left: none;
+    border-right: none;
+}
+
+
+div.time p{
+    position: absolute;
+    font-size: .35rem;
+    width: 95%;
+    line-height: .9rem;
+}
+div.time p span{
+    float: right;
+}
+
+div.ui-form{
+    width: 100%;
+    background: none;
+
+}
+div.ui-select select{
+    width: 100%;
+    padding-left: 35%;
+}
+
+.ui-select:after{
+    display: none;
+}
+
+div.time p span i{
+    float: right;
+    line-height: .9rem;
+    color: #999999;
+}
+
+div.buy{
+    clear: both;
+    padding: 0 .2rem;
+}
+
+div.buy a{
+    font-size: .25rem;
+    color: #999999;
+}
+
+div.buy ul li{
+    text-align: center;
+    float: left;
+    width: 16%;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: .2rem 0;
+    margin: .35rem .1rem;
+}
+
+div.buy ul li.active{
+    background: #4fb5e9;
+    border: 1px solid #4fb5e9;
+}
+
+div.buy ul li.active a{
+    color: white;
+}
+
+div.buy button{
+    width: 100%;
+    height: .8rem;
+    text-align: center;
+    display: block;
+    clear: both;
+    font-size: .3rem;
+    color: white;
+    background: #4fb5e9;
+    border: none;
+    border-radius: 5px;
+    margin: .2rem 0;
+}
+
+div.food{
+    width: 100%;
+    height: 100%;
+}
+
+div.food div.left{
+    padding-top: .1rem;
+    width: 19%;
+    float: left;
+    border-right: 1px solid #cccccc;
+    height: 100%;
+}
+
+div.food div.left li a{
+    color: black;
+    font-size: .35rem;
+}
+
+div.food div.left li{
+    height: .7rem;
+    line-height: .7rem;
+    text-align: center;
+}
+
+div.food div.left li.active{
+    background: #4fb5e9;
+    width: 105%;
+}
+
+div.food div.left li.active a{
+    color: white;
+}
+
+div.food div.right{
+    width: 80%;
+    text-align: left;
+    float: left;
+}
+
+div.food div.right ul li{
+    padding-top: .2rem;
+    height: 1.6rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+div.food div.right ul li img{
+    width: 1.6rem;
+    float: left;
+    margin: .2rem;
+}
+
+div.food div.right ul li h2{
+    float: left;
+    margin-top: .3rem;
+}
+
+div.food div.right ul li a.read{
+    color: #ff6c00;
+    font-size: .35rem;
+    clear: both;
+    margin-top: .3rem;
+    display: block;
+}
+
+div.food div.right ul li h2 a{
+    color: black;
+    font-size: .35rem;
+}
+
+div.food div.right div.num{
+    float: left;
+    margin-top: 1rem;
+}
+
+div.food div.right div.num span{
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    display: inline-block;
+    background: #d6d6d6;
+    margin-right: .1rem;
+    color: white;
+}
+div.food div.right div.num input.num{
+    width: .55rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    display: inline-block;
+    background: #d6d6d6;
+    margin-right: .1rem;
+    color: black;
+    border: none;
+}
+
+
+nav div.money{
+    width: 70%;
+    background: #eaeaea;
+    font-size: .35rem;
+}
+
+nav div.money p{
+    padding-left: .3rem;
+    line-height: 1.1rem;
+}
+
+nav div.money p span.number{
+    display: inline-block;
+    width: .45rem;
+    height: .45rem;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-right: .7rem;
+    background: red;
+    line-height: .45rem;
+    margin-top: .35rem;
+    border-radius: .5rem;
+}
+
+nav div.order{
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-size: .35rem;
+    background: #4fb5e9;
+}
+
+div.car{
+    width: 100%;
+    position: fixed;
+    background: white;
+    bottom: 1rem;
+}
+
+div.car p span{
+    line-height: .7rem;
+    color: #8f8f8f;
+    float: right;
+    margin-top: .1rem;
+    margin-right: .3rem;
+}
+
+div.car p span i{
+    vertical-align: middle;
+    line-height: .7rem;
+    color: red;
+}
+
+div.car ul{
+    clear: both;
+}
+div.car ul li{
+    height: 1rem;
+    padding: 0 .3rem;
+    border-top: 1px solid #cccccc;
+}
+
+div.car ul li h3 span{
+    float: left;
+    color: black;
+    margin: 0;
+    font-size: .35rem;
+    padding: 0;
+}
+
+div.car ul li p{
+    font-size: .35rem;
+    float: left;
+    color: black;
+    margin-left: 1rem;
+}
+
+div.car ul li div.num{
+    float: right;
+}
+
+div.car ul li div.num span{
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .3rem;
+    text-align: center;
+    display: inline-block;
+    background: #d6d6d6;
+    margin-right: .1rem;
+    color: white;
+}
+div.car ul li div.num span.num{
+    width: .55rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    display: inline-block;
+    background: #d6d6d6;
+    margin-right: .1rem;
+    color: black;
+}
+
+
+
+div.profile div{
+    background: white;
+    color: #999999;
+    padding: 0 .3rem;
+    height: 1rem;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 4px;
+}
+
+div.profile div.avater{
+    margin-bottom: .25rem;
+}
+
+div.profile div img{
+    width: .8rem;
+}
+
+div.profile div p{
+    font-size: .35rem;
+    line-height: 1rem;
+}
+div.profile div p span{
+    float: right;
+}
+div.profile div p span i{
+    float: right;
+    line-height: 1rem;
+    color: #999999;
+    margin-right: 0;
+}
+
+div.profile div.addr span{
+    margin-top: .1rem;
+    font-size: .3rem;
+    line-height: .4rem;
+}
+
+div.profile div.addr span i{
+    margin-top: -.5rem;
+    margin-left: 1.3rem;
+}
+
+div.photo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+div.photo ul li{
+    height: 1rem;
+    list-style: none;
+    background: white;
+    text-align: center;
+    line-height: 1rem;
+    font-size: .35rem;
+    border-bottom: 1px solid #cccccc;
+}
+div.photo ul li.cancel{
+    margin-top: 3px;
+}
+
+div.filter{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    filter:Alpha(opacity=30);
+    background-color:rgba(000,000,000,0.5);
+}

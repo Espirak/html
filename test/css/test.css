@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+}
+
+img{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.w998{
+    width: 998px;
+    margin: 0 auto;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+div.top_container{
+    width: 100%;
+    height:127px;
+    background: url("../images/top_bg.jpg");
+}
+
+div.top_content{
+    height: 127px;
+}
+
+div.top_content h1{
+    line-height: 127px;
+    font-size: 50px;
+}
+
+div.nav_container{
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+div.nav_content{
+    height: 60px;
+}
+
+div.nav_content ul{
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.nav_content ul li{
+    float: left;
+    line-height: 60px;
+    padding: 0px 30px;
+    list-style: none;
+}
+
+div.nav_content ul li a{
+    color: white;
+}
+
+div.banner{
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.banner div.hd{
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    bottom: 15px;
+}
+
+div.banner div.hd ul li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 20px;
+    background: black;
+    color: white;
+    list-style: none;
+}
+
+div.banner div.hd ul li.on{
+    background: red;
+}
+
+div.banner div.bd ul li{
+    text-align: center;
+    list-style: none;
+}
+
+div.banner div.bd ul li img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+div.div div{
+    float: left;
+    margin: 16px 7px;
+    background: #b3b3b3;
+}
+
+div.div1{
+    width: 300px;
+    height: 265px;
+}
+
+div.div2{
+    width: 344px;
+    height: 265px;
+}
+
+div.news{
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+
+div.left_nav{
+    width: 116px;
+    height: 180px;
+    float: left;
+    margin-right: 18px;
+    padding: 20px 12px;
+    border: 1px solid #bfbfbf;
+}
+
+div.left_nav ul li{
+    margin: 12px 0;
+    list-style: none;
+}
+
+div.left_nav ul li img{
+    margin: 3px;
+    visibility: hidden;
+    vertical-align: middle;
+}
+
+div.left_nav ul li.curr a{
+    color: #b70202;
+}
+
+div.left_nav ul li.curr img{
+    visibility: visible;
+}
+
+div.left_nav ul li a{
+    color: black;
+}
+
+div.news_list{
+    width: 830px;
+    float: left;
+}
+
+div.news_list h5{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+div.news_list h5 a{
+    color: #b70202;
+}
+
+div.news_list h5 span{
+    color: #979797;
+}
+
+div.news_content{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+div.news_content ul{
+    padding: 0px 15px;
+}
+
+div.news_content ul li{
+    color: #848484;
+    margin: 8px 15px;
+    font-size: 14px;
+}
+
+div.news_content ul li a{
+    color: #848484;
+}
+
+div.news_content ul li span{
+    float: right;
+}
+
+
+div.news_content ul.pages{
+    margin-top: 30px;
+    padding-left: 200px;
+}
+
+div.news_content ul.pages li{
+    font-size: 12px;
+    padding: 5px;
+    margin: 2px;
+    list-style: none;
+    float: left;
+    border: 1px solid #bfbfbf;
+}
+
+div.news_content ul.pages li.active{
+    border: none;
+}
+
+div.news_content ul.pages li.active a{
+    color: #c00202;
+    border: none;
+}
+
+div.footer{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    background: #5a5a5a;
+}
+
+div.foot{
+    padding: 30px 0;
+}
+
+div.foot ul{
+    width: 500px;
+    margin: 0 auto;
+}
+
+div.foot ul li{
+    float: left;
+    line-height: 60px;
+    padding: 0px 15px;
+    list-style: none;
+}
+
+div.foot ul li a{
+    font-size: 14px;
+    color: white;
+}
+
+div.foot p{
+    color: white;
+    text-align: center;
+    clear: both;
+    font-size: 14px;
+}

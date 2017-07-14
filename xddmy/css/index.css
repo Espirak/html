@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei","microsoft yahei", "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.w970{
+    width: 970px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+}
+header div.logo{
+    height: 80px;
+}
+header div#nav{
+    width: 100%;
+    height: 42px;
+    background: #ff6382;
+}
+header div.nav ul{
+
+}
+header div.nav ul li{
+    list-style: none;
+    float: left;
+    padding: 0 35px;
+    font-size: 16px;
+    line-height: 42px;
+}
+header div.nav ul li.on{
+    background: #ff325b;
+}
+header div.nav ul li a{
+    color: white;
+    letter-spacing: 1px;
+}
+div.banner{
+    width: 100%;
+    height: 651px;
+    background: url("../images/banner_bg.jpg") no-repeat center;
+}
+div.notice{
+    width: 100%;
+    height: 393px;
+    background: url("../images/notice_bg.jpg") no-repeat center;
+}
+div.notice div.content{
+    width: 650px;
+    height: 240px;
+    position: relative;
+    left: 50%;
+    top: 80px;
+    margin-left: -340px;
+    padding-left: 30px;
+}
+div.notice div.content h1{
+    font-size: 22px;
+    color: white;
+}
+div.notice div.content h1.notice{
+    color: white;
+    padding: 15px 32px;
+}
+div.notice div.content div.border{
+    width: 400px;
+    float: left;
+    height: 51px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+div.notice div.content h1.xdd{
+    width: 400px;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #b63f57;
+}
+div.notice div.content a.order{
+    width: 180px;
+    height: 40px;
+    color: white;
+    margin-top: 10px;
+    float: right;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #8f1029;
+}
+div.notice div.content div.info{
+    font-size: 16px;
+    color: white;
+    line-height: 28px;
+}
+div.notice div.content div.info p.tel{
+    margin-top: 15px;
+}
+div.notice div.content div.info p img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+div.yzsp{
+    height: 527px;
+    background: #f0d4d9;
+}
+div.yzsp div.content{
+    font-size: 14px;
+}
+div.yzsp div.content h1.title{
+    color: #ff325b;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #ff6382;
+}
+div.yzsp div.content h1.title img{
+    margin-right: 15px;
+}
+div.yzsp div.content h1.title a{
+    float: right;
+    width: 78px;
+    height: 78px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 78px;
+    display: inline-block;
+    background: url("../images/more_bg.jpg") no-repeat;
+}
+div.yzsp div.content p{
+    line-height: 22px;
+    text-align: center;
+}
+
+div.yzsp div.content ul{
+    margin-top: 40px;
+}
+
+div.yzsp div.content ul li{
+    list-style: none;
+    padding: 3px;
+    float: left;
+    margin: 0 32px;
+    border: 2px dotted #fe0c0c;
+    border-radius: 8px;
+}
+div.myhls{
+    width: 100%;
+    height: 585px;
+    padding-top: 50px;
+    background: #fbf7dc;
+    border-top: 2px dashed #efb96f;
+}
+div.myhls div.content h1.title{
+    color: #ff8c01;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #e2860b;
+}
+div.myhls div.content h1.title img{
+    margin-right: 15px;
+}
+div.myhls div.content h1.title a{
+    float: right;
+    width: 78px;
+    height: 78px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 78px;
+    display: inline-block;
+    background: url("../images/more_bg1.jpg") no-repeat;
+}
+div.myhls div.content p{
+    line-height: 22px;
+}
+div.myhls div.content ul{
+    margin-top: 40px;
+}
+
+div.myhls div.content ul li{
+    list-style: none;
+    float: left;
+    padding-top: 20px;
+    padding-left: 24px;
+    margin-right: 30px;
+}
+div.myhls div.content ul li p{
+    line-height: 26px;
+}
+div.myhls div.content ul li:last-child{
+    margin: 0;
+}
+div.myhls div.content ul li h1{
+    height: 45px;
+    color: #ff8c01;
+}
+div.myhls div.content ul li.li1{
+    width: 256px;
+    height: 195px;
+    background: url("../images/li1_bg.jpg") no-repeat;
+}
+div.myhls div.content ul li.li2{
+    width: 256px;
+    height: 195px;
+    background: url("../images/li2_bg.jpg") no-repeat;
+}
+div.myhls div.content ul li.li3{
+    width: 280px;
+    height: 195px;
+    background: url("../images/li3_bg.jpg") no-repeat;
+}
+div.ryq{
+    height: 540px;
+    padding-top: 50px;
+    background: #f0d4d9;
+    border-top: 2px dashed #7fc29d;
+}
+div.ryq div.content{
+    font-size: 14px;
+}
+div.ryq div.content h1.title{
+    color: #ff325b;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #ff6382;
+}
+div.ryq div.content h1.title img{
+    margin-right: 15px;
+}
+div.ryq div.content h1.title a{
+    float: right;
+    width: 78px;
+    height: 78px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 78px;
+    display: inline-block;
+    background: url("../images/more_bg.jpg") no-repeat;
+}
+
+#ryq div.top{
+    width: 870px;
+    float: right;
+    text-align: center;
+}
+
+#ryq div.top img.left{
+    float: left;
+}
+#ryq div.top img.right{
+    float: right;
+}
+#ryq div.middle{
+    width: 870px;
+    float: left;
+    margin-left: -66px;
+    margin-top: -88px;
+    text-align: center;
+}
+
+#ryq div.middle img.left{
+    float: left;
+}
+#ryq div.middle img.right{
+    float: right;
+}
+#ryq div.bottom{
+    width: 870px;
+    float: right;
+    margin-top: -82px;
+    text-align: center;
+}
+
+#ryq div.bottom img.left{
+    float: left;
+}
+#ryq div.bottom img.right{
+    float: right;
+}
+
+div.footer{
+    width: 100%;
+    height:270px;
+    background: #ff325b;
+}
+div.foot{
+    height: 222px;
+    padding-top: 90px;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: -42px;
+    background: url("../images/footer_top_bg.png") no-repeat;
+}
+div.foot p{
+    line-height: 24px;
+}
+div.foot p.tc{
+    text-align: center;
+}
+div.foot p.title{
+    line-height: 40px;
+}
+div.foot a{
+    color: white;
+}
+div.foot div.line{
+    margin: 25px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ae1332;
+}

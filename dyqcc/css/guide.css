@@ -1,0 +1,23 @@
+div#list{
+	height: 1856px;
+	background: url(../images/guide_list_bg.jpg);
+}
+div#list div.list{
+	padding-top: 15px;
+}
+div#list div.list ul li{
+	float: left;
+	padding: 8px;
+	list-style: none;
+	margin-right: 5px;
+	text-align: center;
+	margin-bottom: 35px;
+	border: 2px solid #797878;
+}
+div#list div.list ul li.inline-last{
+	margin-right: 0;
+}
+div#list div.list ul li a{
+	color: #a49c86;
+	display: block;
+}

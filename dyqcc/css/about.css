@@ -1,0 +1,38 @@
+div#content{
+	height: 1067px;
+	background: url(../images/about_content_bg.jpg);
+}
+div#content div.content{
+	height: 1062px;
+	font-size: 14px;
+	padding: 0 140px;
+	line-height: 32px;
+	background: url(../images/about_content_text_bg.jpg);
+}
+div#content div.content h1{
+	color: #c00604;
+	padding: 65px 0;
+	font-size: 28px;
+	text-align: center;
+}
+div#content div.content p{
+	line-height: 32px;
+}
+div#content div.content div.text-group{
+	margin-bottom: 40px;
+}
+div#content div.content div.tool{
+	float: right;
+	margin-top: 40px;
+}
+div#content div.content div.tool a{
+	width: 57px;
+	height: 24px;
+	outline: none;
+	color: #b7b2a4;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	background: url(../images/about_content_btn_bg.png);
+}

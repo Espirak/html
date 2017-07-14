@@ -1,0 +1,48 @@
+div#content{
+	height: 1067px;
+	background: url(../images/about_content_bg.jpg);
+}
+div#content div.content{
+	height: 1062px;
+	font-size: 14px;
+	position: relative;
+	background: url(../images/about_content_text_bg.jpg);
+}
+div#content div.content div.list ul li{
+	float: left;
+	width: 465px;
+	padding: 15px;
+	list-style: none;
+	margin-bottom: 30px;
+}
+div#content div.content div.list ul li img{
+	float: left;
+	margin-right: 15px;
+}
+div#content div.content div.list ul li h3{
+	font-size: 15px;
+	line-height: 24px;
+}
+div#content div.content div.list ul li h3 a{
+	color: #c00604;
+}
+div#content div.content div.list ul li p{
+	font-size: 14px;
+	line-height: 24px;
+}
+div#content div.content div.tool{
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+}
+div#content div.content div.tool a{
+	width: 57px;
+	height: 24px;
+	outline: none;
+	color: #b7b2a4;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	background: url(../images/about_content_btn_bg.png);
+}

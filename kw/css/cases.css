@@ -1,0 +1,235 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 504px;
+    overflow: hidden;
+    margin-top: 82px;
+    background-repeat: no-repeat;
+    background-position: left 82px;
+    background-attachment: fixed;
+}
+
+.banner .bannerBg {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.banner .bannerInfo {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 220px;
+    margin-top: -110px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.banner .bannerInfo .title {
+    font-family: 'MyriadPro-Bold_0';
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.banner .bannerInfo .titleCh {
+    position: relative;
+    top: 20px;
+    border: 3px solid #fff;
+    padding: 8px 24px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+#mainChild1 {
+    padding: 180px 0;
+    border-bottom: 1px solid #949494;
+}
+
+#mainChild1 .child {
+    float: left;
+    margin-right: 40px;
+    width: 146px;
+    height: 133px;
+    border: 2px solid #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+#mainChild1 .child {
+    transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+}
+
+#mainChild1 .child.no {
+    margin-right: 0px;
+}
+
+#mainChild1 .child .title {
+    color: #000000;
+    font-size: 25px;
+    font-family: 'MyriadPro-Regular_0';
+    padding: 22px 0 0 25px;
+}
+
+#mainChild1 .child .info {
+    color: #000000;
+    font-size: 21px;
+    padding: 16px 0 13px 25px;
+}
+
+#mainChild1 .child .sub {
+    margin-left: 25px;
+    height: 4px;
+    width: 36px;
+    background-color: #e60012;
+}
+
+#mainChild1 .child:hover {
+    background-color: #e60012;
+    border: 2px solid #e60012;
+}
+
+#mainChild1 .child:hover .title {
+    color: #fff;
+}
+
+#mainChild1 .child:hover .info {
+    color: #fff;
+}
+
+#mainChild1 .child:hover .sub {
+    background-color: #fff;
+}
+#mainChild1 .child {
+    margin: 0 30px;
+    width: 340px;
+    height: 113px;
+    border: 1px solid #000000;
+}
+#mainChild1 .child.first{
+    margin-left: 26px;
+}
+#mainChild1 .child.last{
+    margin-right: 0;
+}
+
+#mainChild1 .child:hover {
+    border: 1px solid #e60012;
+}
+div.line{
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+}
+div.list_group{
+    width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 145px;
+}
+div.list_group div.title_box{
+    width: 100%;
+    height: 180px;
+    padding-top: 165px;
+    margin-bottom: 100px;
+}
+div.list_group div.title_box div{
+    float: left;
+}
+div.list_group div.title_box div.left{
+    width: 248px;
+    height: 180px;
+    position: relative;
+}
+div.list_group div.title_box div.right{
+    width: 1350px;
+    height: 140px;
+    padding-top: 40px;
+}
+div.list_group div.title_box div.left div.top{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 8px solid #898989;
+}
+
+div.list_group div.title_box div.left div.top span{
+    width: 27px;
+    color: white;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    text-align: center;
+    background: #888888;
+    border: 1px solid #aeaeae;
+}
+div.list_group div.title_box div.left div.bottom{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    background: #d92816;
+}
+div.list_group div.title_box div.left div.bottom h1{
+    margin: 0;
+    color: white;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+div.list_group div.title_box div.left div.bottom p{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
+div.list_group div.title_box div.right div.title_bg{
+    width: 1250px;
+    height: 77px;
+    padding-top: 22px;
+    padding-left: 100px;
+    background: #d92816;
+    color: white;
+}
+div.list_group div.title_box div.right div.title_bg h3{
+    margin: 0 0 5px 0;
+    font-size: 25px;
+    font-family: "Microsoft YaHei", "microsoft yahei", "微软雅黑";
+    font-weight: bold;
+}
+div.list_group div.img{
+    width: 1596px;
+    height: 610px;
+    overflow: hidden;
+    margin-bottom: 158px;
+    border: 2px solid #a0a0a0;
+}
+div.list_group div.img img{
+    width: 100%;
+    height: 100%;
+}
+div.list_group div.case_list{
+    width: 1620px;
+    margin-left: -10px;
+}
+div.list_group div.case_list ul li{
+    float: left;
+    width: 516px;
+    height: 440px;
+    margin: 15px 10px;
+    overflow: hidden;
+    border: 2px solid #a4a4a4;
+}
+div.list_group div.case_list ul li.inline_last{
+    margin-right: 0;
+}
+div.list_group div.case_list ul li img{
+    height: 100%;
+}

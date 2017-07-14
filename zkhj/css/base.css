@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "黑体";
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    background: #f5f6f7;
+}
+header div.container{
+    background: #fff;
+}
+header div.container div.row{
+    height: 173px;
+    background: url(../images/header_bg.jpg) no-repeat right;
+}
+header div.container div.row div.search{
+    padding-top: 100px;
+}
+header div.container div.row div.search i{
+    color: #99ccff;
+    position: relative;
+    top: 5px;
+}
+header div.container div.row div.search input{
+    width: 65%;
+    border: none;
+    outline: none;
+    padding: 6px 0;
+    font-size: 12px;
+    background: none;
+    margin-left: 20px;
+    border-bottom: 1px solid #90cffa;
+}
+header div.container div.row div.search input::-webkit-input-placeholder{
+    color: #22a0f5;
+}
+.navbar{
+    margin-bottom: 0;
+}
+nav div.container div.row{
+    background: #4db2f6;
+}
+nav .navbar-collapse{
+    padding: 0px;
+}
+nav ul.nav{
+    height: 74px;
+}
+nav ul.nav li{
+    float: left;
+    width: 14.28%;
+    height: 74px;
+    border-right: 1px solid #6cc0f8;
+    text-align: center;
+}
+div.navbar-collapse.collapse.in{
+
+}
+div.navbar-collapse.collapse.in ul li{
+    width: 100%;
+}
+nav ul.nav li:active{
+    border-right: 1px solid #93d059;
+}
+.navbar-toggle{
+    background-color: white;
+}
+.navbar-toggle span.icon-bar{
+    /*color: white;*/
+    background: #6cc0f8;
+}
+nav ul.nav li:last-child{
+    border-right: none;
+}
+nav ul.nav li.active{
+    background: #7cc635;
+}
+nav ul.nav li:hover{
+    background: #7cc635;
+}
+nav ul.nav li a{
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 74px;
+}
+nav ul.nav li a:hover{
+    background: none;
+}
+div.footer{
+    color: #7c7c7c;
+    text-align: center;
+    background: #2a2a2a;
+}
+div.footer div.foot{
+    padding-top: 90px;
+}
+div.footer h2,h3,h4{
+    color: white;
+    margin: 0;
+}
+div.footer a{
+    color: #7c7c7c;
+}
+div.footer div.foot h3{
+    font-size: 16px;
+}
+div.footer div.foot p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+div.footer div.contact h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+div.footer div.contact h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+div.footer div.contact a.contact{
+    width: 80%;
+    display: block;
+    height: 38px;
+    margin: 0 auto 15px;
+    line-height: 38px;
+    background: #3b4554;
+}
+div.footer div.share{
+    text-align: left;
+}
+div.footer div.share p a img{
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+div.footer div.copyright{
+    margin-top: 90px;
+    border-top: 1px solid #4b4b4b;
+}
+div.footer div.copyright p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

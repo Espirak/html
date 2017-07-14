@@ -1,0 +1,248 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 504px;
+    overflow: hidden;
+    margin-top: 82px;
+    background-repeat: no-repeat;
+    background-position: left 82px;
+    background-attachment: fixed;
+}
+
+.banner .bannerBg {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.banner .bannerInfo {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 220px;
+    margin-top: -110px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.banner .bannerInfo .title {
+    font-family: 'MyriadPro-Bold_0';
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.banner .bannerInfo .titleCh {
+    position: relative;
+    top: 20px;
+    border: 3px solid #fff;
+    padding: 8px 24px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+#mainChild1 {
+    padding: 180px 0;
+    border-bottom: 1px solid #949494;
+}
+
+#mainChild1 .child {
+    float: left;
+    margin-right: 40px;
+    width: 146px;
+    height: 133px;
+    border: 2px solid #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+#mainChild1 .child {
+    transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+}
+
+#mainChild1 .child.no {
+    margin-right: 0px;
+}
+
+#mainChild1 .child .title {
+    color: #000000;
+    font-size: 25px;
+    font-family: 'MyriadPro-Regular_0';
+    padding: 22px 0 0 25px;
+}
+
+#mainChild1 .child .info {
+    color: #000000;
+    font-size: 21px;
+    padding: 16px 0 13px 25px;
+}
+
+#mainChild1 .child .sub {
+    margin-left: 25px;
+    height: 4px;
+    width: 36px;
+    background-color: #e60012;
+}
+
+#mainChild1 .child:hover {
+    background-color: #e60012;
+    border: 2px solid #e60012;
+}
+
+#mainChild1 .child:hover .title {
+    color: #fff;
+}
+
+#mainChild1 .child:hover .info {
+    color: #fff;
+}
+
+#mainChild1 .child:hover .sub {
+    background-color: #fff;
+}
+#mainChild1 .child {
+    margin: 0 30px;
+    width: 340px;
+    height: 113px;
+    border: 1px solid #000000;
+}
+#mainChild1 .child.first{
+    margin-left: 26px;
+}
+#mainChild1 .child.last{
+    margin-right: 0;
+}
+
+#mainChild1 .child:hover {
+    border: 1px solid #e60012;
+}
+div.line{
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+}
+
+div#industry{
+    width: 1160px;
+    height: 1550px;
+    margin: 0 auto;
+}
+div#industry h1{
+    margin-top: 120px;
+    width: 200px;
+    font-size: 47px;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    border-bottom: 3px solid #cbcccc;
+}
+div#industry div.industry ul li{
+    list-style: none;
+    height: 230px;
+    margin-top: 150px;
+}
+div#industry div.industry ul li div.num{
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    background: #e62e10;
+}
+div#industry div.industry ul li div.left{
+    width: 750px;
+    height: 145px;
+    padding-top: 25px;
+    float: left;
+}
+div#industry div.industry ul li div.right{
+    width: 340px;
+    height: 190px;
+    float: right;
+    margin-top: -20px;
+}
+div#industry div.industry ul li div.left p.title{
+    font-size: 22px;
+    margin-bottom: 23px;
+}
+div#industry div.industry ul li div.left p.title a{
+    color: #0808cc;
+    text-decoration: underline;
+}
+div#industry div.industry ul li div.left span.red{
+    color: #cc0e0e;
+    text-decoration: underline;
+}
+div#industry div.industry ul li div.left img.thumb{
+    margin-right: 20px;
+    float: left;
+}
+div#industry div.industry ul li div.left div.info{
+    font-size: 18px;
+}
+div#industry div.industry ul li div.left div.info p.info{
+    line-height: 28px;
+}
+div#industry div.industry ul li div.left div.info span.red{
+    color: #ce1515;
+    text-decoration: none;
+}
+div#industry div.industry ul li div.left div.info span.date{
+    color: #7c7b7a;
+}
+div#industry div.industry ul li div.left div.info p.link{
+}
+div#industry div.industry ul li div.left div.info p.link a{
+    color: #158815;
+    font-size: 16px;
+    line-height: 16px;
+}
+div#industry div.industry ul li div.left div.info p.link img{
+    margin: 0 5px;
+}
+div#industry div.industry ul li div.left div.info p.link a.date{
+    color: #7c7b7a;
+    text-decoration: underline;
+}
+div#detail{
+    width: 100%;
+    height: 1106px;
+    background: url("../images/industry_detail_bg.jpg") no-repeat top;
+    background-attachment: fixed;
+}
+div#detail div.detail{
+    width: 1160px;
+    height: 1100px;
+    margin: 0 auto;
+}
+div#detail div.detail div.right{
+    float: right;
+    width: 395px;
+    height: 370px;
+    text-align: center;
+    padding-top: 70px;
+    background: rgba(230,46,16,0.71);
+}
+div#detail div.detail div.right h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+div#detail div.detail div.right p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 48px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+div#detail div.detail div.right p.last{
+    letter-spacing: 3px;
+}
